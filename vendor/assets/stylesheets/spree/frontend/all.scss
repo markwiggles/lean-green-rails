@@ -91,6 +91,11 @@ $lg-green-darkest: darken(#228B22,30%);
 		-webkit-box-shadow: inset 0 0 10px $lg-green-darkest;
 		box-shadow: inset 0 0 10px $lg-green-darkest;
 	}
+	.panel-footer {
+		.info {
+			font-size: 1.2em;
+		}
+	}
 }
 
 //PRODUCT SHOW
