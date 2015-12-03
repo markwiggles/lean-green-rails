@@ -1,0 +1,9 @@
+<div class="row" data-hook id="products">
+
+	<% products.each do |product| %>
+	<% url = spree.product_url(product, taxon_id: @taxon.try(:id)) %>
+	<%= link_to (render partial: "partials/panel", locals: {product: product}), url %>
+	<% end %>
+	<% reset_cycle("classes") %>
+
+</div>

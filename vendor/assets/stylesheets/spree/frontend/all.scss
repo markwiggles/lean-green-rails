@@ -1,0 +1,186 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require spree/frontend
+
+ *= require_self
+ *= require_tree .
+*/
+@import 'font-awesome';
+
+//CUSTOM VARIABLES
+$lg-green: #75B940;
+$lg-green-light: lighten($lg-green,10%);
+$lg-green-dark: darken(#75B940, 10%);
+$lg-green-darker: darken(#228B22,5%);
+$lg-green-darkest: darken(#228B22,30%);
+
+// HEADER
+#spree-header #header {
+	padding: 0;
+}
+#spree-header #logo {
+	margin: 0;
+}
+#spree-header {
+	background: #1c5c92 url(/images/lg-blured.jpg) center center;
+}
+#content {
+	h1,
+	h2,
+	h3,
+	h4 {
+		color: $lg-green-darker;
+	}
+}
+.cart-item-description {
+	h4 a {
+		color: $lg-green-darker;
+	}
+}
+.product-body {
+	height: 140px;
+}
+.product-title {
+	color: $lg-green-darker;
+}
+#products {
+	.panel-footer {
+		background-color: inherit;
+		border-top: none;
+
+		a,
+		.price, .info{
+			color: #fff;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+	}
+	.panel-footer {
+
+		// background-color: green;
+		min-height: 110px;
+		padding: 10px;
+		font-size: 1.1em;
+		span.price.selling.lead {
+			font-size: 1em;
+			margin-top: 0.4em;
+			display: block;
+		}
+	}
+	.panel {
+		width: auto;
+		background: -webkit-linear-gradient($lg-green-light,$lg-green-darker );
+		background: -o-linear-gradient($lg-green-light, $lg-green-darker );
+		background: -moz-linear-gradient($lg-green-light, $lg-green-darker );
+		background: linear-gradient($lg-green-light, $lg-green-darker );
+		border: 1px solid lightgrey;
+		border-radius: 10px;
+		.panel-body {
+			min-width: 160px;
+			img {
+				margin: 0.3em;
+			}
+		}
+	}
+	div.panel:hover {
+		-moz-box-shadow: inset 0 0 10px $lg-green-darkest;
+		-webkit-box-shadow: inset 0 0 10px $lg-green-darkest;
+		box-shadow: inset 0 0 10px $lg-green-darkest;
+	}
+}
+
+//PRODUCT SHOW
+.shop-btn {
+	// margin-top: -2em;
+}
+.product-info {
+	p,
+	li,
+	span {
+		font-size: 1.2em;
+		color: $lg-green-darker;
+	}
+}
+[data-hook='product_show'] {
+	display: table;
+}
+.accordion {
+	height: auto;
+	.accordion-heading {
+		color: $lg-green-darker;
+		font-size: 1.2em;
+		background-color: #e8e8e8;
+		padding: 1em;
+		margin: 0.2em;
+		border-radius: 5px;
+		cursor: pointer;
+		.accordion-toggle {
+			text-decoration: none;
+			padding: 1em;
+			width: 400px;
+		}
+	}
+	.accordion-heading:hover {
+		background-color: darken(#e8e8e8,5%);
+	}
+	.accordion-inner {
+		padding: 0.5em 2em 1em 2em;
+	}
+	li,
+	p {
+		padding: 0.5em;
+		font-size: 1.2em;
+		color: $lg-green-darker;
+	}
+}
+.logo-border {
+	background-color: lighten(lightgrey,10%);
+	padding: 2rem;
+	border-radius: 5px;
+	margin-top: 2em;
+	img {
+		height: 4rem;
+		width: auto;
+		padding: 0;
+		vertical-align: bottom;
+		margin-right: 3rem;
+	}
+	span {
+		font-weight: bold;
+		font-size: 1.2em;
+		line-height: 2em;
+	}
+}
+.shadow {
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+// SOCIAL MEDIA
+#social-media {
+	z-index: 300;
+	overflow: visible;
+	span {
+		display: inline-block;
+		position: relative;
+		height: 2.5em;
+		width: 2.5em;
+		margin: 0.5em;
+		.fa {
+			position: absolute;
+			color: #fff;
+			padding: 0.5rem 1rem 1rem;
+			font-size: 2em;
+		}
+		.fa:hover {
+			font-size: 2.3em;
+			cursor: pointer;
+			transition: all 300ms ease-in-out;
+		}
+	}
+}

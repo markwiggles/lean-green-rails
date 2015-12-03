@@ -1,0 +1,22 @@
+<% logger.debug("PRODUCTLOG: #{product.inspect}")%>
+<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-list-item" data-hook="products_list_item" id="product_<%= product.id %>" itemscope itemtype="https://schema.org/Product">
+	<div class="panel panel-default">
+		<% #cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : cache_key_for_product(product)) do %>
+		<div class="panel-body text-center product-body">
+			<% product.images.each do |i| %>
+			<%= image_tag(i.attachment.url(:small)) %>
+			<% end %>
+			<br>
+		</div>
+		<div class="panel-footer text-center">
+			<div <%="title=#{product.name}" %> class="info">
+				<%= truncate(product.name.html_safe, length: 50) %>
+			</div>
+			<br>
+			<span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+				<span class="price selling lead" itemprop="price"><%= display_price(product) %></span>
+			</span>
+		</div>
+		<% #end %>
+	</div>
+</div>
