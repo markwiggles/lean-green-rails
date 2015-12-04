@@ -4,7 +4,7 @@ default: &default
   encoding: unicode
   template: template0
   adapter: postgresql
-  database: docker
+  database: leangreen
   username: docker
   pool: 5
 
@@ -21,7 +21,6 @@ production:
   <<: *default
   host: db
   # host: localhost
-  password: docker
-    # <%= ENV['DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
     # <%= ENV['DATABASE_PASSWORD'] %>
   # password: docker
