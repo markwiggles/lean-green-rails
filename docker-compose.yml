@@ -1,0 +1,43 @@
+# proxy:
+#   image: jwilder/nginx-proxy:latest
+#   ports:
+#     - "80:80"
+#   volumes:
+#     - "/var/run/docker.sock:/tmp/docker.sock"
+
+db:
+  image: markwigg/dbpostimg
+  ports:
+    - "49153:5432"
+
+# redis:
+#   image: redis
+
+web:
+#  image: quay.io/markwiggles/push-notify
+  image: leangreen
+  environment:
+    VIRTUAL_HOST: localhost
+    # VIRTUAL_HOST: jolart.com
+    RAILS_ENV: production
+  env_file:
+    - 'secrets.env'
+  links:
+    - db
+    # - redis
+  ports:
+    - "80:80"
+  # volumes:
+  #   - .:/home/app/webapp
+
+# worker:
+#   # image: quay.io/markwiggles/push-notify
+#   image: push-notify
+#   command: bundle exec sidekiq -C config/sidekiq.yml
+#   environment:
+#     RAILS_ENV: production
+#   env_file:
+#     - 'secrets.env'
+#   links:
+#     - db
+#     - redis

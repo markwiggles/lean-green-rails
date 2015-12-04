@@ -4,7 +4,7 @@ default: &default
   encoding: unicode
   template: template0
   adapter: postgresql
-  database: lg_new
+  database: docker
   username: docker
   pool: 5
 
@@ -19,8 +19,9 @@ development:
 
 production:
   <<: *default
-  # host: db
-  host: localhost
+  host: db
+  # host: localhost
   password: docker
+    # <%= ENV['DATABASE_PASSWORD'] %>
     # <%= ENV['DATABASE_PASSWORD'] %>
   # password: docker
