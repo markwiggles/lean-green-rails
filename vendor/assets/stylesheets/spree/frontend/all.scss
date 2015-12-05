@@ -17,6 +17,11 @@ $lg-green-dark: darken(#75B940, 10%);
 $lg-green-darker: darken(#228B22,5%);
 $lg-green-darkest: darken(#228B22,30%);
 
+// force show scrollbar
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
 // HEADER
 #spree-header #header {
 	padding: 0;
