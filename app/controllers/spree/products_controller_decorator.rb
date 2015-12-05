@@ -17,5 +17,6 @@ Spree::ProductsController.class_eval do
    'performance_pack'
   end
  end
+
  helper_method :find_product_type
 end
