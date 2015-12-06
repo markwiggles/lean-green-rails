@@ -1,0 +1,96 @@
+{
+  "assets": {
+    "ember-data.js.map": "ember-data.js.map",
+    "failed.png": "failed.png",
+    "frontend.css": "frontend.css",
+    "frontend.js": "frontend.js",
+    "frontend.map": "frontend.map",
+    "passed.png": "passed.png",
+    "test-loader.js": "test-loader.js",
+    "test-support.css": "test-support.css",
+    "test-support.js": "test-support.js",
+    "test-support.map": "test-support.map",
+    "tests.js": "tests.js",
+    "tests.map": "tests.map",
+    "vendor.css": "vendor.css",
+    "vendor.js": "vendor.js",
+    "vendor.map": "vendor.map"
+  },
+  "files": {
+    "ember-data.js.map": {
+      "logical_path": "ember-data.js.map",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 2347511
+    },
+    "failed.png": {
+      "logical_path": "failed.png",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 26702
+    },
+    "frontend.css": {
+      "logical_path": "frontend.css",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 0
+    },
+    "frontend.js": {
+      "logical_path": "frontend.js",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 6103
+    },
+    "frontend.map": {
+      "logical_path": "frontend.map",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 7659
+    },
+    "passed.png": {
+      "logical_path": "passed.png",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 16445
+    },
+    "test-loader.js": {
+      "logical_path": "test-loader.js",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 2225
+    },
+    "test-support.css": {
+      "logical_path": "test-support.css",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 5591
+    },
+    "test-support.js": {
+      "logical_path": "test-support.js",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 204478
+    },
+    "test-support.map": {
+      "logical_path": "test-support.map",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 258927
+    },
+    "tests.js": {
+      "logical_path": "tests.js",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 4574
+    },
+    "tests.map": {
+      "logical_path": "tests.map",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 5879
+    },
+    "vendor.css": {
+      "logical_path": "vendor.css",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 0
+    },
+    "vendor.js": {
+      "logical_path": "vendor.js",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 2917414
+    },
+    "vendor.map": {
+      "logical_path": "vendor.map",
+      "mtime": "2015-12-06T04:16:31.000Z",
+      "size": 5086340
+    }
+  }
+}

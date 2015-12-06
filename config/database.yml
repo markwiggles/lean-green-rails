@@ -4,7 +4,6 @@ default: &default
   encoding: unicode
   template: template0
   adapter: postgresql
-  username: docker
   pool: 5
 
   # For details on connection pooling, see rails configuration guide
@@ -15,13 +14,14 @@ development:
   <<: *default
   host: localhost
   database: leangreen
-  password: docker
 
 production:
   <<: *default
-  host: db
-  database: docker
-  # host: localhost
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  # username: docker
+  # host: db
+  # database: docker
+  host: localhost
+  database: leangreen
+  # password: docker
     # <%= ENV['DATABASE_PASSWORD'] %>
   # password: docker

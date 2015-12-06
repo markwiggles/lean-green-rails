@@ -1,0 +1,68 @@
+<div id="spree-header">
+	<header data-hook="" id="header">
+		<div class="container">
+			<div class="row">
+				<figure class="col-xs-12 col-sm-6 col-lg-4" data-hook="" id="logo">
+					<a href="/shop/"><img alt="Lean green white logo" src="/images/lean-green-white-logo.png"></a>
+				</figure>
+				<div class="col-lg-3 col-md-3 col-sm-3" id="social-media">
+					<span>
+						<a href="https://www.facebook.com/leangreenfitness" target="blank">
+							<i class="fa fa-facebook-official"></i>
+						</a>
+					</span>
+					<span>
+						<a href="https://www.youtube.com/channel/UCExHWydCTdrj_0q6WTqqpLQ" target="blank">
+							<i class="fa fa-youtube"></i>
+						</a>
+					</span>
+					<span>
+						<a href="https://www.instagram.com/?hl=en" target="blank">
+							<i class="fa fa-instagram"></i>
+						</a>
+					</span>
+				</div>
+
+				<nav class="col-xs-12 col-sm-6 col-md-5 col-lg-5" id="top-nav-bar">
+					<ul class="nav navbar-nav navbar-right" data-hook="" id="nav-bar">
+						<li id="link-to-login">
+							<a href="/shop/login">Login</a>
+						</li>
+						<li data-hook="" id="search-bar">
+
+							<form accept-charset="UTF-8" action="/shop/products" class="navbar-form" method="get"><input name="utf8" type="hidden" value="✓">
+
+								<div class="form-group">
+									<input class="form-control" id="keywords" name="keywords" placeholder="Search" type="search">
+								</div>
+								<input class="btn btn-success" type="submit" value="Search">
+							</form>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<nav class="col-md-12">
+			<div class="navbar" id="main-nav-bar">
+				<ul class="nav navbar-nav" data-hook="">
+					<li data-hook="" id="home-link">
+						<a href="/shop/">Home</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right" data-hook="">
+					<li data-hook="" id="link-to-cart">
+						<a class="cart-info empty" href="/shop/cart">
+							<span class="glyphicon glyphicon-shopping-cart"></span>
+							Cart: (Empty)</a>
+					</li>
+					<script>
+						Spree.fetch_cart()
+					</script>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>

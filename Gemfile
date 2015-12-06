@@ -30,7 +30,7 @@ gem 'spree',github: 'spree/spree', branch: '3-0-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
 
-gem 'ember-cli-rails'
+gem 'ember-cli-rails', '0.5.2'
 
 
 group :development, :test do
