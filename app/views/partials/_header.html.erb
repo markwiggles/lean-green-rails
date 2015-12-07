@@ -45,24 +45,6 @@
 		</div>
 	</header>
 	<div class="container">
-		<nav class="col-md-12">
-			<div class="navbar" id="main-nav-bar">
-				<ul class="nav navbar-nav" data-hook="">
-					<li data-hook="" id="home-link">
-						<a href="/shop/">Home</a>
-					</li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right" data-hook="">
-					<li data-hook="" id="link-to-cart">
-						<a class="cart-info empty" href="/shop/cart">
-							<span class="glyphicon glyphicon-shopping-cart"></span>
-							Cart: (Empty)</a>
-					</li>
-					<script>
-						Spree.fetch_cart()
-					</script>
-				</ul>
-			</div>
-		</nav>
+		<%= render 'partials/main_navbar' %>
 	</div>
 </div>

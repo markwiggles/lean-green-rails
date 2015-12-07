@@ -32,6 +32,13 @@ html {
 #spree-header {
 	background: #228B22 url(/images/lg-blured.jpg) center center;
 }
+#main-nav-bar ul:first-of-type {
+  li {
+    a {
+      letter-spacing: 0.1em;
+    }
+  }
+}
 #content {
 	h1,
 	h2,

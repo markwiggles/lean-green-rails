@@ -88114,4 +88114,4 @@ define('ember-cli-content-security-policy', ['ember-cli-content-security-policy/
 
 
 /* jshint ignore:end */
-//# sourceMappingURL=https://localhost:3000/frontend/development/assets/frontend/assets/vendor.map
+//# sourceMappingURL=/assets/frontend/assets/vendor.map

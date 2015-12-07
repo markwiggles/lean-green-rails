@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= turbolinks
 //= require_tree .
+
+//= require spree/frontend

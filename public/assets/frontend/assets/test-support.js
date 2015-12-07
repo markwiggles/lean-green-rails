@@ -7131,8 +7131,8 @@ QUnit.config.testTimeout = 60000; //Default Test Timeout 60 Seconds
 if (QUnit.notifications) {
   QUnit.notifications({
     icons: {
-      passed: 'https://localhost:3000/frontend/development/assets/frontend/assets/passed.png',
-      failed: 'https://localhost:3000/frontend/development/assets/frontend/assets/failed.png'
+      passed: '/assets/frontend/assets/passed.png',
+      failed: '/assets/frontend/assets/failed.png'
     }
   });
 }
@@ -7190,4 +7190,4 @@ runningTests = true;
 
 
 /* jshint ignore:end */
-//# sourceMappingURL=https://localhost:3000/frontend/development/assets/frontend/assets/test-support.map
+//# sourceMappingURL=/assets/frontend/assets/test-support.map
