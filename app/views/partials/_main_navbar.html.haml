@@ -1,16 +1,21 @@
 %nav.col-md-12
-	#main-nav-bar.navbar
+	#main-nav-bar.navbar.collapse.navbar-collapse
 		%ul.nav.navbar-nav.col-md-8{"data-hook" => ""}
 			%li
 				=link_to 'Home', '/'
 			%li
-				=link_to 'About', '/about'
+				=link_to 'Why L&G', '/why'
+
+			%li#home-link{"data-hook" => ""}
+				=link_to Spree.t('Shop L&G'), spree.root_path
+
 			%li
 				=link_to 'Get Training', '/training'
 			%li
 				=link_to 'Get Vegucated', '/vegucated'
-				
-			%li#home-link{"data-hook" => ""}= link_to Spree.t('Shop'), spree.root_path
+			%li
+				=link_to 'Join Our Team', '/team'
+
 		%ul.nav.navbar-nav.navbar-right{"data-hook" => ""}
 			%li#link-to-cart{"data-hook" => ""}
 				%noscript

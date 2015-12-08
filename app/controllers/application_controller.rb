@@ -7,5 +7,11 @@ class ApplicationController < ActionController::Base
      text.gsub('<br>','')
    end
 
+   def index
+
+     @stuff = 'my stuff'
+
+   end
+
    helper_method :remove_html
 end

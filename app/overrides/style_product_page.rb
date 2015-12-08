@@ -7,3 +7,9 @@ Deface::Override.new(virtual_path: 'spree/products/show',
                      name: 'add product info',
                      insert_after: "erb[silent]:contains('end')",
                      text: '<%= render "partials/#{find_product_type(@product)}"%>')
+
+
+Deface::Override.new(virtual_path: 'spree/products/_image',
+                     name: 'add product enlarge',
+                     insert_after: "erb[loud]:contains('image_tag')",
+                     text: "<%= image_tag image.attachment.url(:product), class: 'enlarge', :itemprop => 'image'%>")

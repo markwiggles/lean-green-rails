@@ -1,2 +1,51 @@
+main.cd-main-content.navigation-content
+	.cd-fixed-bg.cd-bg-1
+		.cd-fixed-bg-content
+			h1 style="font-weight:bold;padding-bottom:50px;"
+					| Let's Get You Fitter and Healthier Sooner!
+			.fixed-col.col-sm-4.pull-left style="margin-left:-2em;"
+				link-to spree.root_path
+					img.image-ease-out src="assets/images/iphone6.png"
+				p Download Our New App
+			.fixed-col.col-sm-4.pull-right style="margin-left:2em;"
+				link-to spree.root_path
+					img.image-ease-out src="assets/images/perf-pack.png"
+				p Shop For Healthy Food
+	.cd-scrolling-bg.cd-color-1
+		.cd-container
+			=partial 'partials/carousel'
+			h3 Get Back In Control of Your Life
+			img.container-image.pull-right src="assets/images/home-image-success.jpg"
+			p We design personal programmes to restore the balance in your life, enabling you to have more time, energy, money, intimacy, and fun.
+			p During your session you will clear away physical and emotional clutter,
+				define your priorities, set goals, and begin to take the steps required to reach them.
 
-h2 Index time now
+	.cd-fixed-bg.cd-bg-2
+		.cd-fixed-bg-content
+			h2.form-heading What Benefits Do You Want?
+			/ =partial 'partials/wants-form'
+
+	.cd-scrolling-bg.cd-color-2
+		.cd-container
+			h3 The New Version of You
+			img.container-image.pull-right src="assets/images/home-jump.png"
+			p Lose weight, shed bodyfat, gain weight, build muscle, shape your body, enhance your physique, compete, improve your posture, improve your movement grace.
+			p Relieve stress, increase energy, enhance relaxation, rehabilitate injuries, achieve vibrant health, gain vitality, like what you see in the mirror, feel great naked!
+			p Run faster, jump higher, perform at your peak in your sport, maximise your daily strength, improve your work performance,
+				go home feeling alive (and a little dead at the same time), dance up a storm, improve your digestion,
+				improve your nutrition and eating habits, enhance your libido and sexual performance.
+	.cd-fixed-bg.cd-bg-3
+		.cd-fixed-bg-content
+			h2.form-heading style="margin-top:4em" What Are Your Goals?
+			/ =partial 'partials/goals-form'
+
+	.cd-scrolling-bg.cd-color-3
+		.cd-container
+			img.container-image.pull-right src="assets/images/jarrod-spot.jpg"
+			p You will achieve better health, strength, fitness and flexibility by keeping you accountable and consistent in performing your personalised healthy lifestyle plan.
+			p You will improve your mobility, coordination and balance, to move better, look great and feel fantastic!
+			p You will be fitter and stronger, enhancing your confidence and self-esteem.
+			p You will look great naked, no matter what your age!
+	.cd-fixed-bg.cd-bg-4
+		.cd-fixed-bg-content
+			h2 Let's Get Started

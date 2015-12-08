@@ -1,0 +1,4 @@
+.navigation-content.container
+	.row
+		h2 Training
+		=ember-youtube ytid="cVfgLRjhkhc"

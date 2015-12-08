@@ -19,25 +19,73 @@ $lg-green-darkest: darken(#228B22,30%);
 
 // force show scrollbar
 html {
-  overflow: -moz-scrollbars-vertical;
-  overflow-y: scroll;
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
 }
+
 // HEADER
-#spree-header #header {
-	padding: 0;
-}
-#spree-header #logo {
-	margin: 0;
-}
 #spree-header {
+	position: fixed;
+	top: 0;
+	margin: auto;
+	z-index: 2000;
+	width: 100%;
 	background: #228B22 url(/images/lg-blured.jpg) center center;
+	margin-bottom: 0;
+	#header {
+		padding: 0;
+	}
+	#logo {
+		margin: 0;
+	}
 }
 #main-nav-bar ul:first-of-type {
-  li {
-    a {
-      letter-spacing: 0.1em;
-    }
-  }
+	li {
+		a {
+			letter-spacing: 0.1em;
+		}
+	}
+}
+
+/* Small */
+@media (max-width:768px) {
+	#search-bar {
+		display: none !important;
+	}
+	.navigation-content,
+	#content {
+		margin-top: 280px !important;
+	}
+	.panel-body img {
+		height: 100px;
+	}
+}
+.navbar-collapse {
+	background-color: inherit !important;
+}
+.navbar-toggle {
+	z-index: 3000;
+	.icon-bar {
+		background-color: white;
+	}
+}
+/* ENLARGE IMAGE */
+#main-image img:hover {
+	transform: scale(2,2);
+	transform-origin: 50% 10%;
+	z-index: 10000;
+}
+#main-image img {
+	z-index: 10000;
+	height: 400px;
+	transition: all 0.5s ease-in-out;
+}
+
+//allow for fixed header
+.navigation-content,
+#content {
+	margin-top: 211px;
+	z-index: 1000;
 }
 #content {
 	h1,
@@ -62,9 +110,9 @@ html {
 	.panel-footer {
 		background-color: inherit;
 		border-top: none;
-
 		a,
-		.price, .info{
+		.price,
+		.info {
 			color: #fff;
 		}
 		a:hover {
@@ -112,6 +160,7 @@ html {
 
 //PRODUCT SHOW
 .shop-btn {
+
 	// margin-top: -2em;
 }
 .product-info {
@@ -145,7 +194,7 @@ html {
 		background-color: darken(#e8e8e8,5%);
 	}
 	.accordion-inner {
-		padding: 0.5em 2em 1em 2em;
+		padding: 0.5em 2em 1em;
 	}
 	li,
 	p {
