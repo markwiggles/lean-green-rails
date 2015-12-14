@@ -1,4 +1,11 @@
-.navigation-content.container
-	.row
-		h2 Training
-		=ember-youtube ytid="cVfgLRjhkhc"
+#training.navigation-content
+	.cd-scrolling-bg.cd-color-1
+		.cd-container
+			.row
+				img.img-thumbnail.img-center src="images/evolution_large.png"
+				br
+				.videowrapper
+
+					=ember-youtube ytid="cVfgLRjhkhc" show-controls=false
+
+				= partial 'partials/training'

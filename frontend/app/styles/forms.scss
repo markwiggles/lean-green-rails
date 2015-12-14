@@ -1,0 +1,29 @@
+/*
+--------------------------------------------------------------------------------
+FORMS
+--------------------------------------------------------------------------------
+*/
+
+form {
+  margin: auto;
+  text-align: left;
+}
+.checkbox-q {
+  vertical-align: top;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-bottom: 50px;
+}
+.checkbox-text {
+  vertical-align: top;
+  text-align: left;
+  padding-left: 1em;
+  padding-top: 1.3em;
+  label {
+    font-size: 2.4em;
+    font-weight: normal;
+  }
+}
+#goals-form {
+  width: 550px;
+}

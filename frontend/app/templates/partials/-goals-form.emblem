@@ -1,0 +1,38 @@
+form#goals-form
+  h1.form-heading What Are Your Goals?
+  table
+    tr
+      td.checkbox-q
+        .checkboxFive
+          input#checkboxFiveInput-goals-1 name="1" type="checkbox" value="1" checked="checked"
+          label for="checkboxFiveInput-goals-1"
+      td.checkbox-text
+        label General Health
+    tr
+      td.checkbox-q
+        .checkboxFive
+          input#checkboxFiveInput-goals-2 name="2" type="checkbox" value="1" checked="checked"
+          label for="checkboxFiveInput-goals-2"
+      td.checkbox-text
+        label Strength
+    tr
+      td.checkbox-q
+        .checkboxFive
+          input#checkboxFiveInput-goals-3 name="3" type="checkbox" value="1" checked="checked"
+          label for="checkboxFiveInput-goals-3"
+      td.checkbox-text
+        label Fitness and Stamina
+    tr
+      td.checkbox-q
+        .checkboxFive
+          input#checkboxFiveInput-goals-4 name="4" type="checkbox" value="1" checked="checked"
+          label for="checkboxFiveInput-goals-4"
+      td.checkbox-text
+        label Flexibility
+    tr
+      td.checkbox-q
+        .checkboxFive
+          input#checkboxFiveInput-goals-5 name="5" type="checkbox" value="1" checked="checked"
+          label for="checkboxFiveInput-goals-5"
+      td.checkbox-text
+        label Weight Control

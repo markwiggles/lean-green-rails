@@ -38,7 +38,11 @@
     "ember-data": "1.13.15",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
+    "ember-modal-dialog": "0.8.2",
+    "ember-tether": "0.2.0",
+    "ember-wormhole": "0.3.4",
     "ember-youtube": "0.4.2",
-    "liquid-fire": "0.22.0"
+    "liquid-fire": "0.22.0",
+    "liquid-tether": "0.1.9"
   }
 }

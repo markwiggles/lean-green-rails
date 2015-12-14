@@ -1,3 +1,4 @@
-.navigation-content.container
-	.row
-		h2 Team
+#training.navigation-content
+	.cd-scrolling-bg.cd-color-1
+		.cd-container
+			=partial 'partials/team'

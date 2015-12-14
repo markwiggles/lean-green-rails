@@ -6,6 +6,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+
 //= require spree/frontend
+//= require bootstrap-sprockets
+//= require bootstrap/modal
+
 
 //= require_tree .

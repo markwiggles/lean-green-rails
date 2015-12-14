@@ -9,18 +9,24 @@
  *= require_tree .
 */
 @import 'font-awesome';
+@import 'modal';
 
 //CUSTOM VARIABLES
+$lg-background-color: lighten(grey,40%);
 $lg-green: #75B940;
 $lg-green-light: lighten($lg-green,10%);
 $lg-green-dark: darken(#75B940, 10%);
 $lg-green-darker: darken(#228B22,5%);
 $lg-green-darkest: darken(#228B22,30%);
+$lg-comp-blue: #4E9393;
 
 // force show scrollbar
 html {
 	overflow: -moz-scrollbars-vertical;
 	overflow-y: scroll;
+}
+body {
+	background-color: $lg-background-color;
 }
 
 // HEADER
@@ -56,7 +62,7 @@ html {
 	#content {
 		margin-top: 280px !important;
 	}
-	.panel-body img {
+	.product-list-item img {
 		height: 100px;
 	}
 }
@@ -70,15 +76,17 @@ html {
 	}
 }
 /* ENLARGE IMAGE */
-#main-image img:hover {
+.enlarged {
 	transform: scale(2,2);
 	transform-origin: 50% 10%;
 	z-index: 10000;
 }
 #main-image img {
 	z-index: 10000;
-	height: 400px;
+	max-height: 400px;
+	max-width: 300px;
 	transition: all 0.5s ease-in-out;
+	cursor: pointer;
 }
 
 //allow for fixed header
@@ -159,10 +167,6 @@ html {
 }
 
 //PRODUCT SHOW
-.shop-btn {
-
-	// margin-top: -2em;
-}
 .product-info {
 	p,
 	li,

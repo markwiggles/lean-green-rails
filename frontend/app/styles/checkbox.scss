@@ -1,0 +1,75 @@
+/**
+ * Checkbox Five
+ */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 1px /9 20px 20px;
+  line-height: normal;
+}
+
+.checkboxFive {
+  width: 45px;
+  position: relative;
+  float: left;
+  input[type="checkbox"] + label,
+  input[type="radio"] + label {
+    margin-left: 0;
+  }
+}
+.checkboxFive {
+  margin-top: 15px;
+  .checkbox-text {
+    font-size: 1.3rem;
+  }
+}
+
+/**
+ * Create the box for the checkbox
+ */
+.checkboxFive label {
+  cursor: pointer;
+  position: absolute;
+  width: 45px;
+  max-width: 150%;
+  height: 35px;
+  top: 0;
+  left: -2px;
+  background: #eee;
+  border: 3px solid #fff;
+  border-radius: 5px;
+}
+/**
+ * Display the tick inside the checkbox
+ */
+.checkboxFive label:after {
+  opacity: 0.2;
+  content: '';
+  position: absolute;
+  width: 34.5px;
+  height: 17px;
+  background: transparent;
+  top: 0;
+  left: 2px;
+  border: 7px solid green;
+  border-radius: 5px;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/**
+ * Create the hover event of the tick
+ */
+.checkboxFive label:hover::after {
+  opacity: 0.5;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}

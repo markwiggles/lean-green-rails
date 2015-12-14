@@ -1,3 +1,2 @@
-.navigation-content.container
-	.row
-		h2 vegucated
+.navigation-content
+	=partial 'partials/vege'

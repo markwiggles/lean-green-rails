@@ -1,0 +1,10 @@
+.cd-scrolling-bg.cd-color-1
+	.cd-container
+		h3 Want To Look Better?
+		img.img-thumbnail.pull-right src="assets/images/home-image-success.jpg"
+		p Lose weight, shed bodyfat, reshape your body, enhance your physique, gain weight, build muscle, compete in body sculpting, improve your posture, improve your movement grace.
+		h3 Feel Better?
+		p Relieve stress, increase energy, enhance relaxation, rehabilitate injuries, achieve vibrant health, gain vitality, like what you see in the mirror, feel great naked.
+		h3 Function Better?
+		img.container-image.pull-left src="assets/images/home-jump.png"
+		p Run faster, jump higher, perform at your peak in sport, maximise your strength, improve your work performance, go home feeling alive, dance up a storm, improve your digestion, improve your nutrition and eating habits, enhance your libido and sexual performance.

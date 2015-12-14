@@ -375,6 +375,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.3.6)
   byebug
   ember-cli-rails (= 0.5.2)
   font-awesome-rails
@@ -386,7 +387,7 @@ DEPENDENCIES
   pg
   quiet_assets
   rails (= 4.2.4)
-  sass-rails (~> 5.0)
+  sass-rails (>= 3.2)
   sdoc (~> 0.4.0)
   spree!
   spree_auth_devise!

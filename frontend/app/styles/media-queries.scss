@@ -1,0 +1,35 @@
+/*
+--------------------------------------------------------------------------------
+MEDIA QUERIES
+--------------------------------------------------------------------------------
+*/
+//COLLAPSE MENU
+@media (max-width: 1190px) {
+
+}
+@media only screen and (min-width: 768px) {
+  .cd-fixed-bg h1,
+  .cd-fixed-bg h2 {
+
+    // font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-fixed-bg {
+    background-attachment: fixed;
+  }
+  .cd-fixed-bg h1,
+  .cd-fixed-bg h2 {
+
+    // font-size: 48px;
+    font-weight: 300;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar-collapse {
+    background-color: black;
+  }
+  .cd-scrolling-bg {
+
+  }
+}

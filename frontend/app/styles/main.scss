@@ -2,7 +2,7 @@ body,
 html {
   font-family: "Roboto", sans-serif;
   color: #3d3536;
-  background-color: white;
+  background-color: $lg-background-color;
   height: 100%;
 }
 
@@ -11,11 +11,28 @@ html {
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
 }
+// CAROUSEL
 .carousel-indicators {
   bottom: -40px;
 }
-.carousel-control.left, .carousel-control.right {
-    background-image: none
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+.carousel {
+  max-width: 940px;
+  margin: 50px auto;
+}
+//VIDEO
+iframe {
+  width: 540px;
+  height: 304px;
+}
+.opaque-hover {
+  opacity: 0.9;
+}
+.opaque-hover:hover {
+  opacity: 1.0;
 }
 
 /*
@@ -50,38 +67,8 @@ MAIN
   transform: translateX(-50%) translateY(-50%);
   width: 90%;
   max-width: 1170px;
-  text-align: center;
+}
 
-  // font-size: 30px;
-  // font-size: 1.875rem;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  color: white;
-}
-.cd-fixed-bg-content {
-  margin-top: 100px;
-  h1,
-  h2 {
-    color: $white-text;
-  }
-  h2 {
-    margin-top: 2em;
-    line-height: 2em;
-  }
-  form,
-  table,
-  table tr,
-  label {
-    background-color: transparent;
-    border: none;
-    color: $white-text;
-  }
-  .checkboxFive {
-    margin-top: 15px;
-    .checkbox-text {
-      font-size: 1.3rem;
-    }
-  }
-}
 .cd-scrolling-bg {
   position: relative;
   /*min-height: 100%;*/
@@ -89,21 +76,8 @@ MAIN
   line-height: 1.6;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 2;
-  form,
-  table,
-  table tr,
-  label {
-    background-color: transparent;
-    border: none;
-  }
-  .checkboxFive {
-    margin-top: 15px;
-  }
 }
-iframe {
-  width: 540px;
-  height: 304px;
-}
+
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
@@ -116,14 +90,17 @@ iframe {
   }
   p {
     text-align: left;
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: justify;
     text-justify: inter-word;
     font-weight: 100px;
   }
+  h2 {
+    font-size: 2.4em;
+  }
   h3 {
     text-align: left;
-    font-size: 3em;
+    font-size: 2.8em;
   }
 }
 .cd-container::after {
@@ -132,13 +109,12 @@ iframe {
   display: table;
   clear: both;
 }
-
-//allow for header
-.first-item {
-  margin-top: 120px;
-}
+//FIXED COLUMNS FOR APP & PRODUCT IMAGE LINKS
 .fixed-col {
   height: 300px;
+  h3 {
+    margin: 0;
+  }
   p {
     font-size: 1.5rem;
   }
@@ -147,226 +123,4 @@ iframe {
     transition: height 0.3s;
     -webkit-transition: height 0.3s;
   }
-  img:hover {
-    height: 250px;
-    font-size: 1.3rem;
-  }
-}
-/*
---------------------------------------------------------------------------------
-COLORS
---------------------------------------------------------------------------------
-*/
-.cd-scrolling-bg.cd-color-1 {
-  background-color: #3d3536;
-  h3,
-  p {
-    color: #a6989a;
-  }
-}
-.cd-scrolling-bg.cd-color-2 {
-  background-color: #99a478;
-  color: #3d3536;
-}
-.cd-scrolling-bg.cd-color-3 {
-  background-color: darken(#b4d7a8,10%);
-  color: #3d3536;
-}
-/*
---------------------------------------------------------------------------------
-MEDIA QUERIES
---------------------------------------------------------------------------------
-*/
-@media only screen and (min-width: 768px) {
-  .cd-fixed-bg h1,
-  .cd-fixed-bg h2 {
-
-    // font-size: 36px;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-fixed-bg {
-    background-attachment: fixed;
-  }
-  .cd-fixed-bg h1,
-  .cd-fixed-bg h2 {
-
-    // font-size: 48px;
-    font-weight: 300;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .navbar-collapse {
-    background-color: black;
-  }
-  .cd-scrolling-bg {
-
-  }
-}
-
-/*
---------------------------------------------------------------------------------
-BLOCKQUOTE
---------------------------------------------------------------------------------
-*/
-blockquote {
-  text-align: left;
-  text-align: justify;
-  text-justify: inter-word;
-
-  // font-size: 1.8em;
-  background: transparent;
-  color: $text-color;
-  border-left: 10px solid darken(#99a478,10%);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-blockquote p {
-  display: inline;
-}
-.text-right {
-  text-align: right !important;
-}
-.text-center {
-  text-align: center !important;
-}
-@media (max-width: 1190px) {
-
-}
-/*
---------------------------------------------------------------------------------
-FORMS
---------------------------------------------------------------------------------
-*/
-form {
-  margin: auto;
-  text-align: left;
-}
-.form-heading {
-  font-size: 2.5em !important;
-}
-.checkbox-q {
-  vertical-align: top;
-  padding-top: 0.5em;
-  padding-right: 1em;
-  padding-bottom: 50px;
-}
-.checkbox-text {
-  vertical-align: top;
-  text-align: left;
-  padding-left: 1em;
-  padding-top: 1.3em;
-  label {
-    font-size: 2em;
-    font-weight: normal;
-  }
-}
-#wants-form {
-  max-width: 55rem;
-}
-#goals-form {
-  max-width: 30rem;
-}
-#conditions-form {
-  width: 100%;
-}
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 1px /9 20px 20px;
-  line-height: normal;
-}
-/**
- * Checkbox Five
- */
-.checkboxFive {
-  width: 25px;
-  position: relative;
-  float: left;
-  input[type="checkbox"] + label,
-  input[type="radio"] + label {
-    margin-left: 0;
-  }
-}
-
-/**
- * Create the box for the checkbox
- */
-.checkboxFive label {
-  cursor: pointer;
-  position: absolute;
-  width: 45px;
-  max-width: 150%;
-  height: 35px;
-  top: 0;
-  left: -2px;
-  background: #eee;
-  border: 3px solid #fff;
-  border-radius: 5px;
-}
-/**
- * Display the tick inside the checkbox
- */
-.checkboxFive label:after {
-  opacity: 0.2;
-  content: '';
-  position: absolute;
-  width: 34.5px;
-  height: 17px;
-  background: transparent;
-  top: 0;
-  left: 2px;
-  border: 7px solid green;
-  border-radius: 5px;
-  border-top: none;
-  border-right: none;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-/**
- * Create the hover event of the tick
- */
-.checkboxFive label:hover::after {
-  opacity: 0.5;
-}
-
-/**
- * Create the checkbox state for the tick
- */
-.checkboxFive input[type=checkbox]:checked + label:after {
-  opacity: 1;
-}
-/*
---------------------------------------------------------------------------------
-THE IMAGE BACKGROUNDS
---------------------------------------------------------------------------------
-*/
-.cd-fixed-bg.cd-bg-1 {
-  background-image: url(images/life.jpg);
-}
-.cd-fixed-bg.cd-bg-2 {
-  background-image: url(images/bike-ride.jpg);
-}
-.cd-fixed-bg.cd-bg-3 {
-  background-image: url(images/gym-bike.jpg);
-}
-.cd-fixed-bg.cd-bg-4 {
-  background-image: url(images/cd-background-4.jpg);
-}
-.cd-fixed-bg.cd-bg-5 {
-  background-image: url(images/vegetables.jpg);
-}
-.cd-fixed-bg.cd-bg-6 {
-  background-image: url(images/park-image.jpg);
 }

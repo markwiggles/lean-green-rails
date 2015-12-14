@@ -4,6 +4,8 @@ $lg-green: #75B940;
 $lg-green-light: lighten($lg-green,10%);
 $lg-green-dark: darken(#75B940, 10%);
 $lg-green-darker: darken(#228B22,0%);
+$lg-green-darkest: darken(#228B22,30%);
+$lg-background-color: lighten(grey,40%);
 // ;
 // darken($lg-green, 60%);
 $bg-light: darken(#FFF, 5%);
@@ -13,35 +15,4 @@ $bg-light: darken(#FFF, 5%);
 $bg-green: $lg-green;
 $nav-link-clr: lighten(#8e7d7f,10%);
 $checkbox-tick: green;
-
 $header-color: black;
-
-
-//FOUNDATION OVERRIDES
-// $topbar-bg-color: $header-color;
-// $topbar-dropdown-bg: $header-color;
-//
-// $topbar-breakpoint: 1186px;
-// $primary-color: $lg-green-dark;
-// $reveal-position-top: 40rem;
-//
-// // Set the link colors and styles for top-level nav
-// $topbar-link-color: #fff;
-// $topbar-link-color-hover: $lg-green;
-// $topbar-link-color-active: $lg-green;
-// $topbar-link-color-active-hover: $lg-green;
-// $topbar-link-bg-hover: inherit;
-// $topbar-link-weight: normal;
-// $topbar-link-font-size: rem-calc(13);
-// $topbar-link-hover-lightness: -10%; // Darken by 10%
-//
-// .uppercase {
-//   text-transform: uppercase;
-// }
-// .lg-green-dark {
-// 	color: $lg-green-dark;
-// }
-
-// Height and margin
-// $topbar-height: 100px !default;
-// $topbar-margin-bottom: 120px !default;

@@ -1,3 +1,6 @@
-.navigation-content.container
-	.row
-		h2 WHy L&G
+.navigation-content
+	.cd-scrolling-bg.cd-color-1
+		.cd-container
+			=partial 'partials/about'
+			hr
+			=partial 'partials/jarrod'

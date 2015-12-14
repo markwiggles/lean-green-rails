@@ -10,6 +10,8 @@ class ApplicationController < ActionController::Base
    def index
 
      @stuff = 'my stuff'
+     @products = Spree::Product.find(2)
+     logger.debug("PRODUCTS: #{@products.inspect}")
 
    end
 
