@@ -10,5 +10,5 @@ main.cd-main-content.navigation-content
 	.cd-scrolling-bg.cd-color-1
 		.cd-container
 			=partial 'partials/goals'
-	.cd-fixed-bg.cd-bg-4
+	.cd-fixed-bg.cd-bg-6
 		=partial 'partials/call-to-action'
