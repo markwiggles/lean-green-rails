@@ -17,8 +17,9 @@
               %i.fa.fa-instagram
         %nav#top-nav-bar.col-xs-12.col-sm-6.col-md-5.col-lg-5
           %ul#nav-bar.nav.navbar-nav.navbar-right{"data-hook" => ""}
-            %li#link-to-login.col-xs-4
-              %a{:href => "/shop/login"} Login
+            = render 'partials/login_bar'
+            -# %li#link-to-login.col-xs-4
+            -#   %a{:href => "/shop/login"} Login
             = render 'partials/menu_button'
             %li#search-bar{"data-hook" => ""}
               %form.navbar-form{"accept-charset" => "UTF-8", :action => "/shop/products", :method => "get"}
