@@ -5,17 +5,14 @@
 				=link_to 'Home', '/'
 			%li
 				=link_to 'Why L&G', '/why'
-
-			%li#home-link{"data-hook" => ""}
-				=link_to Spree.t('Shop L&G'), spree.root_path
-
 			%li
 				=link_to 'Get Training', '/training'
 			%li
 				=link_to 'Get Vegucated', '/vegucated'
 			%li
 				=link_to 'Join Our Team', '/team'
-
+			%li#home-link{"data-hook" => ""}
+				=link_to Spree.t('Shop L&G'), spree.root_path
 		%ul.nav.navbar-nav.navbar-right{"data-hook" => ""}
 			%li#link-to-cart{"data-hook" => ""}
 				%noscript

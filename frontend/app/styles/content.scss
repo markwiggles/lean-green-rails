@@ -1,32 +1,33 @@
-
 .ember-modal-dialog {
   right: -100%;
-  bottom:0%;
+  bottom: 0;
   z-index: 30000;
   transition: all 1000ms linear;
   button.close {
     padding: 1em 0;
   }
-  .modal-header, .modal-footer {
+  img {
+    display:block;
+    margin: auto;
+    padding: 0 2em;
+  }
+  .modal-header,
+  .modal-footer {
+    text-align: center;
     border: none;
     img {
-      text-align: center;
       display: block;
+      margin: 0.5em auto;
       height: 2.5em;
-      margin-bottom: 0.5em;
     }
-  }
-  img {
-    padding: 0 2em;
   }
 }
 .show-dialog {
-  right:2%;
+  right: 2%;
 }
 .modal-backdrop {
   background-color: transparent !important;
 }
-
 #call-to-action {
   padding-top: 10em;
   h2 {
@@ -86,6 +87,7 @@
   h3,
   p,
   li {
+
     // color: $white-text;
   }
   form,
@@ -110,8 +112,9 @@
     margin-bottom: 0.3em;
     font-size: 2.2em;
     font-weight: bold;
+
     // border-bottom: solid 2px #fff;
-    display: inline;
+    display: block;
     padding-bottom: 1px;
   }
 }
@@ -131,9 +134,9 @@
   height: 0;
 }
 .videowrapper iframe {
-    background: url(images/evolved-training.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(images/evolved-training.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 5%;
