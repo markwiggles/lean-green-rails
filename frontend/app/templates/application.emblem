@@ -1,2 +1,3 @@
 
-=liquid-outlet use="toLeft"
+=partial 'partials/main-navbar'
+=liquid-outlet

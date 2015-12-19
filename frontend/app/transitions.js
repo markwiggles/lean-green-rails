@@ -1,9 +1,10 @@
 export default function() {
 
-	var durationTime = 2000;
+	var durationTime = 500;
 
 	this.transition(
-		this.matchSelector('.navigation-content'),
-		this.use('crossFade')
+		this.toRoute(['index', 'why','training','vegucated','team']),
+		this.use('crossFade',{duration: durationTime})
 	);
+
 }

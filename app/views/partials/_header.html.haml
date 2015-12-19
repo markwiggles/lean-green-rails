@@ -4,28 +4,8 @@
       .row
         %figure#logo.col-xs-12.col-sm-6.col-lg-4{"data-hook" => ""}
           %a{:href => "/shop/"}
-            %img{:alt => "Lean green white logo", :src => "/images/lean-green-white-logo.png"}/
-        #social-media.col-lg-3.col-md-3.col-sm-3
-          %span
-            %a{:href => "https://www.facebook.com/leangreenfitness", :target => "blank"}
-              %i.fa.fa-facebook-official
-          %span
-            %a{:href => "https://www.youtube.com/channel/UCExHWydCTdrj_0q6WTqqpLQ", :target => "blank"}
-              %i.fa.fa-youtube
-          %span
-            %a{:href => "https://www.instagram.com/?hl=en", :target => "blank"}
-              %i.fa.fa-instagram
-        %nav#top-nav-bar.col-xs-12.col-sm-6.col-md-5.col-lg-5
-          %ul#nav-bar.nav.navbar-nav.navbar-right{"data-hook" => ""}
-            = render 'partials/login_bar'
-            -# %li#link-to-login.col-xs-4
-            -#   %a{:href => "/shop/login"} Login
-            = render 'partials/menu_button'
-            %li#search-bar{"data-hook" => ""}
-              %form.navbar-form{"accept-charset" => "UTF-8", :action => "/shop/products", :method => "get"}
-                %input{:name => "utf8", :type => "hidden", :value => "✓"}/
-                .form-group
-                  %input#keywords.form-control{:name => "keywords", :placeholder => "Search", :type => "search"}/
-                %input.btn.btn-success{:type => "submit", :value => "Search"}/
-  .container
-    = render 'partials/main_navbar'
+            %img{:alt => "Lean green white logo", :src => "/images/lean-green-white-logo.png"}
+        =render 'partials/menu_button'
+        =render 'partials/social_media'
+        =render 'partials/navbar_right'
+    -# = render 'partials/main_navbar'

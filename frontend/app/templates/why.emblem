@@ -1,4 +1,4 @@
-.navigation-content
+.navigation-content.liquid-container
 	.cd-scrolling-bg.cd-color-1
 		.cd-container
 			=partial 'partials/about'

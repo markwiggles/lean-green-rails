@@ -19,6 +19,7 @@ $lg-green-dark: darken(#75B940, 10%);
 $lg-green-darker: darken(#228B22,5%);
 $lg-green-darkest: darken(#228B22,30%);
 $lg-comp-blue: #4E9393;
+$white-text: darken(#fff,10%);
 
 // force show scrollbar
 html {
@@ -45,10 +46,21 @@ body {
 		margin: 0;
 	}
 }
-#main-nav-bar ul:first-of-type {
-	li {
-		a {
-			letter-spacing: 0.1em;
+#main-nav-bar,
+#navigation-menu {
+	background: #228B22 url(/images/lg-blured.jpg) center center;
+	ul:first-of-type {
+		li {
+			a {
+				color: $white-text;
+				letter-spacing: 0.1em;
+			}
+			a:hover {
+				background: rgba(34, 34, 34, 0.4);
+			}
+			a:focus {
+				background: rgba(34, 34, 34, 0.4);
+			}
 		}
 	}
 }
@@ -90,7 +102,9 @@ body {
 }
 
 //allow for fixed header
-.navigation-content,
+.navigation-content {
+	margin-top: 211px;
+}
 #content {
 	margin-top: 211px;
 	z-index: 1000;

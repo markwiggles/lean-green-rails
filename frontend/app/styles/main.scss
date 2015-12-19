@@ -11,6 +11,12 @@ html {
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
 }
+
+//HEADER
+#navigation-menu {
+  background: #228B22 url(/images/lg-blured.jpg) center center;
+}
+
 // CAROUSEL
 .carousel-indicators {
   bottom: -40px;

@@ -1,4 +1,4 @@
-main.cd-main-content.navigation-content
+main.cd-main-content.navigation-content.liquid-container
 	=partial 'partials/app-modal'
 
 	=partial 'partials/fixed-bg-1'
