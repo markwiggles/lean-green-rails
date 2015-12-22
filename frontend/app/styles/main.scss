@@ -4,17 +4,13 @@ html {
   color: #3d3536;
   background-color: $lg-background-color;
   height: 100%;
+  font-size: 16px;
 }
 
 // force show scrollbar
 html {
   overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
-}
-
-//HEADER
-#navigation-menu {
-  background: #228B22 url(/images/lg-blured.jpg) center center;
 }
 
 // CAROUSEL
@@ -28,7 +24,9 @@ html {
 .carousel {
   max-width: 940px;
   margin: 50px auto;
+  padding: 0 10px;
 }
+
 //VIDEO
 iframe {
   width: 540px;
@@ -46,6 +44,14 @@ iframe {
 MAIN
 --------------------------------------------------------------------------------
 */
+#goals {
+  h3 {
+    font-style: italic;
+  }
+  ul {
+    padding-top: 2em;
+  }
+}
 .cd-main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
   height: 100%;
@@ -54,7 +60,7 @@ MAIN
 }
 .cd-fixed-bg {
   position: relative;
-  min-height: 800px; //100%;
+  min-height: 45em; //100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -74,7 +80,6 @@ MAIN
   width: 90%;
   max-width: 1170px;
 }
-
 .cd-scrolling-bg {
   position: relative;
   /*min-height: 100%;*/
@@ -83,11 +88,11 @@ MAIN
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   max-width: 768px;
+  padding: 10px;
   margin: 0 auto;
   .container-image {
     padding: 1em 0 1em 2em;
@@ -115,6 +120,7 @@ MAIN
   display: table;
   clear: both;
 }
+
 //FIXED COLUMNS FOR APP & PRODUCT IMAGE LINKS
 .fixed-col {
   height: 300px;
@@ -122,7 +128,7 @@ MAIN
     margin: 0;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
   img {
     height: 220px;

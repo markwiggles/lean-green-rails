@@ -1,39 +1,39 @@
-// -- Spree Custom Header and Footer ---------------------
-// @import "spree/bootstrap-sprockets";
-// @import "spree/variables";
-// @import "spree/bootstrap";
+
+//CUSTOM VARIABLES
+$lg-background-color: lighten(grey,40%);
+$lg-green: #75B940;
+$lg-green-light: lighten($lg-green,10%);
+$lg-green-dark: darken(#75B940, 10%);
+$lg-green-darker: darken(#228B22,5%);
+$lg-green-darkest: darken(#228B22,30%);
+$lg-comp-blue: #4E9393;
+$white-text: darken(#fff,10%);
 
 
-#spree-header {
-  // background: $brand-primary asset-url('spree_header.jpg') center center;
-  // background-size: cover;
-  // margin-bottom: $line-height-computed;
-	//
-  // #header {
-  //   background: rgba($gray-darker, 0.4);
-  //   padding: $line-height-computed 0;
-  // }
 
-  #logo {
-    margin-bottom: 0px;
+/* Extra Small devices (mobiles, 320px and up) */
+@media (min-width: 320px) and (max-width: 767px) {
 
+  #top-nav-bar {
+    padding-left: 30px;
+  }
+  #spree-header #logo {
     img {
-      width: 306px;
+      height: 95px;
+      width: auto;
     }
   }
-
-	// #1c5c92 url(/assets/spree_header-198b754a34f1428c25f64303be8ac2aae84a076433af18ca55b65d7cbf1a0e13.jpg) center center
-
-  // .nav a {
-  //   color: white;
-	//
-  //   &:hover, &:focus {
-  //     background: rgba($gray-darker, 0.4);
-  //   }
-  // }
-
-  .navbar {
-    border: 0;
-    margin-bottom: 0;
+  .navigation-content {
+    margin-top: 145px;
+  }
+  .navigation-wrapper {
+    margin-top: 95px;
+    ul {
+      background: $lg-green-darker;
+      opacity: 0.9;
+    }
+  }
+  #social-media {
+    display: none;
   }
 }

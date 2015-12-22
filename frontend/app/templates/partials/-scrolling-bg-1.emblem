@@ -6,5 +6,5 @@
 		h3 Feel Better?
 		p Relieve stress, increase energy, enhance relaxation, rehabilitate injuries, achieve vibrant health, gain vitality, like what you see in the mirror, feel great naked.
 		h3 Function Better?
-		img.container-image.pull-left src="assets/images/home-jump.png"
+		img.img-thumbnail.pull-left src="assets/images/home-jump.png"
 		p Run faster, jump higher, perform at your peak in sport, maximise your strength, improve your work performance, go home feeling alive, dance up a storm, improve your digestion, improve your nutrition and eating habits, enhance your libido and sexual performance.

@@ -1,8 +1,9 @@
-img.img-thumbnail.pull-right src="assets/images/team.jpg"
-p Join the LEAN & GREEN Team and gain access to fortnightly healthy habits coaching and accountability check-ins; online cooking demonstrations and nutrition education sessions; and exercise videos and complete workout programs to improve your shape, strength, fitness, flexibility and agility. You will also be sent a link to the best meditation digital recordings.
+#team
+	img.img-thumbnail.pull-right src="assets/images/team.jpg"
+	p Join the LEAN & GREEN Team and gain access to fortnightly healthy habits coaching and accountability check-ins; online cooking demonstrations and nutrition education sessions; and exercise videos and complete workout programs to improve your shape, strength, fitness, flexibility and agility. You will also be sent a link to the best meditation digital recordings.
 
-img.img-thumbnail.pull-left src="assets/images/lake-workout.jpg"
-p If you live in the Brisbane area, make sure you come along to the club for massage, private or small group training sessions, and join in our weekend active adventures.
+	img.img-thumbnail.pull-left src="assets/images/lake-workout.jpg"
+	p If you live in the Brisbane area, make sure you come along to the club for massage, private or small group training sessions, and join in our weekend active adventures.
 
 
-p LEAN & GREEN is changing the world one person at a time by providing the education, training, nutrition and support each individual needs to make healthy lifestyle improvements that stick.
+	p LEAN & GREEN is changing the world one person at a time by providing the education, training, nutrition and support each individual needs to make healthy lifestyle improvements that stick.

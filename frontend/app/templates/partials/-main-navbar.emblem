@@ -1,21 +1,23 @@
-#navigation-menu.col-md-12 style="margin-top:161px;position:fixed;height:50px;background-color:grey;z-index:30000"
+.navigation-wrapper.col-md-12.col-xs-12
 	.container
 		nav.col-md-12 style="height:50px;z-index:30000"
-			/ #main-nav-bar.pull-right.navbar.collapse.navbar-collapse.col-lg-12 style="z-index:10000;position:fixed;margin:0;"
-			ul.nav.navbar-nav.navbar.collapse.navbar-collapse data-hook=""
-				li
-					=link-to 'Home' 'index'
-				li
-					=link-to 'Why L&G' 'why'
-				li
-					=link-to 'Get Training' 'training'
-				li
-					=link-to 'Get Vegucated' 'vegucated'
-				li
-					=link-to 'Join Our Team' 'team'
-				li#home-link data-hook=""
-					a href="/shop"
-						| Shop L&G
+			=partial 'partials/menu-button'
+			#navigation-menu.navbar.collapse.navbar-collapse
+				ul.nav.navbar-nav.col-md-8 data-hook=""
+					li
+						=link-to 'Home' 'index'
+					li
+						=link-to 'Why L&G' 'why'
+					li
+						=link-to 'Get Training' 'training'
+					li
+						=link-to 'Get Vegucated' 'vegucated'
+					li
+						=link-to 'Join Our Team' 'team'
 
-			ul.nav.navbar-nav.navbar-right data-hook=""
-				li#link-to-cart data-hook=""
+				ul.nav.navbar-nav.navbar-right.col-md-4
+					li#home-link data-hook=""
+						a href="/shop"
+							| L&G Products
+					li#link-to-cart data-hook=""
+						=fetch_cart

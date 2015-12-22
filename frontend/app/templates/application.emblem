@@ -1,3 +1,2 @@
-
 =partial 'partials/main-navbar'
 =liquid-outlet
