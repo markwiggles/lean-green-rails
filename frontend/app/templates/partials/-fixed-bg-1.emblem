@@ -1,18 +1,6 @@
 .cd-fixed-bg.cd-bg-1
 	.row
 		.container
-			h1.text-center style="font-weight:bold;padding-bottom:20px;"
+			h1.text-center style="font-weight:bold;margin-top:0;padding-top:1em;line-height:2em"
 				|	Let's Get You Fitter and Healthier Sooner!
 			=partial 'partials/carousel'
-
-	/ .row
-	/ 	.container.text-center
-	/ 		.fixed-col.col-sm-4.pull-left style="margin-left:-2em;"
-	/ 			link-to spree.root_path
-	/ 				img.opaque-hover src="assets/images/iphone6.png"
-	/ 			h3 Download Our New App
-	/ 		.fixed-col.col-sm-4.pull-right style="margin-left:2em;"
-	/ 			h3 Shop L&G
-	/ 			a href="/shop"
-	/ 				img src="assets/images/perf-pack.png" class="opaque-hover"
-	/ 				h3 Busy Greens

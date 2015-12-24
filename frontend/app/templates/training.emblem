@@ -1,6 +1,6 @@
 #training.navigation-content
 	.cd-scrolling-bg.cd-color-1
-		.cd-container
+		.cd-container style="margin-top:-35px;"
 			.row
 				img.img-thumbnail.img-center src="images/evolution_large.png"
 				br

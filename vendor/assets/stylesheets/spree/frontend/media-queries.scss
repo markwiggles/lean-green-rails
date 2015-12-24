@@ -1,0 +1,39 @@
+@import 'variables';
+/* Extra Small devices (mobiles, 320px and up) */
+/* Small */
+@media (min-width: 320px) and (max-width: 767px) {
+	#top-nav-bar {
+		padding-left: 30px;
+	}
+	#spree-header #logo {
+		img {
+			height: 95px;
+			width: auto;
+		}
+	}
+	.navigation-content {
+		margin-top: 145px;
+	}
+	.navigation-wrapper {
+		margin-top: 95px;
+		ul {
+			background: $lg-green-darker;
+			opacity: 0.9;
+		}
+	}
+	#social-media {
+		display: none;
+	}
+}
+@media (max-width:768px) {
+	#search-bar {
+		display: none !important;
+	}
+	.navigation-content,
+	#content {
+		margin-top: 200px;
+	}
+	.product-list-item img {
+		height: 100px;
+	}
+}

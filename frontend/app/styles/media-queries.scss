@@ -8,25 +8,38 @@ MEDIA QUERIES
   body {
     font-size: 10px !important;
   }
-  #top-nav-bar {
-    padding-left: 30px;
-  }
   #spree-header #logo {
     img {
       height: 95px;
       width: auto;
     }
   }
-  .navigation-content {
-    margin-top: 145px;
-  }
   .navigation-wrapper {
     margin-top: 95px;
-    ul {
-      background: $lg-green-darker;
-      opacity: 0.9;
-    }
   }
+  .navigation-content {
+    margin-top: 135px;
+  }
+
+  // #top-nav-bar {
+  //   padding-left: 30px;
+  // }
+  // #spree-header #logo {
+  //   img {
+  //     height: 95px;
+  //     width: auto;
+  //   }
+  // }
+  // .navigation-content {
+  //   margin-top: 145px;
+  // }
+  // .navigation-wrapper {
+  //   margin-top: 95px;
+  //   ul {
+  //     background: $lg-green-darker;
+  //     opacity: 0.9;
+  //   }
+  // }
   .cd-scrolling-bg img {
     height: 15em;
   }
@@ -51,8 +64,6 @@ MEDIA QUERIES
     font-size: 12px !important;
   }
 }
-
-/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
   body {
     font-size: 14px !important;

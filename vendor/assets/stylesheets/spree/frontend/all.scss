@@ -9,6 +9,7 @@
  *= require_tree .
 */
 //IMPORTS
+@import 'variables';
 @import 'font-awesome';
 @import 'modal';
 @import 'custom-spree';
@@ -38,7 +39,7 @@ body {
 	#logo {
 		margin: 0;
 		img {
-			height: 120px;
+			height: 135px;
 			width: auto;
 		}
 	}
@@ -74,27 +75,15 @@ body {
 	}
 }
 .navigation-wrapper {
-	margin-top: 120px;
+	margin-top: 135px;
 	position: fixed;
 	height: 50px;
 	z-index: 50000;
 }
 
-/* Small */
-@media (max-width:768px) {
-	#search-bar {
-		display: none !important;
-	}
-	.navigation-content,
-	#content {
-		margin-top: 170px;
-	}
-	.product-list-item img {
-		height: 100px;
-	}
-}
 .navbar-collapse {
 	background-color: inherit !important;
+	width: 80%;
 }
 .navbar-toggle {
 	z-index: 3000;
@@ -121,7 +110,7 @@ body {
 	margin-top: 170px;
 }
 #content {
-	margin-top: 170px;
+	margin-top: 200px;
 	z-index: 1000;
 }
 #content {

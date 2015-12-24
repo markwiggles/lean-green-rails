@@ -6,4 +6,4 @@ Deface::Override.new(virtual_path: 'spree/shared/_nav_bar',
 Deface::Override.new(virtual_path: 'spree/shared/_nav_bar',
                      name: 'add styles to navbar',
                      set_attributes: '#top-nav-bar',
-                     attributes: {class: "col-xs-5 col-sm-6 col-md-5 col-lg-5"})										 
+                     attributes: {class: "col-lg-5 col-md-5 col-sm-3 col-xs-5"})										 
