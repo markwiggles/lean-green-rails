@@ -17,11 +17,11 @@ development:
 
 production:
   <<: *default
-  # username: docker
-  # host: db
-  # database: docker
-  host: localhost
-  database: leangreen
+  username: docker
+  host: db
+  database: docker
+  # host: localhost
+  # database: leangreen
   password: <%= ENV['DATABASE_PASSWORD'] %>
     # <%= ENV['DATABASE_PASSWORD'] %>
   # password: docker
