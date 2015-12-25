@@ -8,7 +8,7 @@ module.exports = function(defaults) {
 		minifyJS: false,
 		'ember-cli-rails': {
 			// prepend: 'http://localhost:3000',
-			prepend: 'http://jolart.com',
+			prepend: 'http://lg.jolart.com',
 			// prefix: EmberApp.env() + '/assets',
 
 		}
