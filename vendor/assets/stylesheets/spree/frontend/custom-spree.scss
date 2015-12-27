@@ -2,6 +2,9 @@
 
 /* Extra Small devices (mobiles, 320px and up) */
 @media (min-width: 320px) and (max-width: 767px) {
+	.navbar-collapse {
+		width: 60%;
+	}
 	#top-nav-bar {
 		padding-left: 30px;
 	}
@@ -15,10 +18,10 @@
 		margin-top: 145px;
 	}
 	.navigation-wrapper {
-
 		ul {
 			background: $lg-green-darker;
 			opacity: 0.9;
+			width: 120% !important;
 		}
 	}
 	#social-media {
@@ -32,10 +35,10 @@
 }
 @media (max-width: 1200px) {
 	.navigation-wrapper {
-
 		ul {
 			background: $lg-green-darker;
 			opacity: 0.9;
+			width: 66.66%;
 		}
 	}
 	.navbar-header {
@@ -49,6 +52,7 @@
 		display: block;
 	}
 	.navbar-collapse {
+		width: 80%;
 		border-top: 1px solid transparent;
 		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
 	}

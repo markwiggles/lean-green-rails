@@ -1,13 +1,15 @@
 if isShowingModal
-  =modal-dialog  targetAttachment="" translucentOverlay=false clickOutsideToClose=false
-    button.close type="button" click="toggleModal" x
+  =modal-dialog  isShowingModal=true targetAttachment="" translucentOverlay=false clickOutsideToClose=false
+    button.close type="button" click="toggleModal"
+      a
+        i.remove.glyphicon.glyphicon-remove-sign
     .modal-header
       .modal-title
-        h3.text-center.text-success Download Our<br>New App
+        h3.text-center.text-success Download Our App
       / p free to try
     img style="margin:auto;" src="assets/images/iphone6.png"
 
     .modal-footer
       img.opaque-hover src="assets/images/app-store-icon.png"
       img.opaque-hover src="assets/images/google-play-icon.png"
-      button.btn.btn-default type="button" click="toggleModal" Close
+      / button.btn.btn-default type="button" click="toggleModal" Close

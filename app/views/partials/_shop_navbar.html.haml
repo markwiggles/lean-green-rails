@@ -3,11 +3,11 @@
 		%nav.col-md-12{style:"height:50px;z-index:30000"}
 			=render 'partials/menu_button'
 			#shop-navbar.navbar.collapse.navbar-collapse.col-xs-10
-				%ul.nav.navbar-nav.col-md-8{"data-hook" => ""}
+				%ul.nav.navbar-nav.col-md-7.col-sm-8.col-xs-12{"data-hook" => ""}
 					%li
 						=link_to 'Home', '/'
 
-				%ul.nav.navbar-nav.navbar-right.col-md-4{"data-hook" => ""}
+				%ul.nav.navbar-nav.navbar-right.col-md-5.col-sm-8.col-xs-12{"data-hook" => ""}
 
 					%li#home-link{"data-hook" => ""}
 						=link_to Spree.t('L&G Products'), spree.root_path

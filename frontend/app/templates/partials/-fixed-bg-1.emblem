@@ -1,6 +1,6 @@
 .cd-fixed-bg.cd-bg-1
 	.row
 		.container
-			h1.text-center style="font-weight:bold;margin-top:0;padding-top:1em;line-height:2em"
+			h1.text-center style="font-weight:bold;margin-top:0;padding-top:1em;line-height:1.4em"
 				|	Let's Get You Fitter and Healthier Sooner!
 			=partial 'partials/carousel'
