@@ -1,2 +1,3 @@
 .navigation-content
+	=shop-modal
 	=partial 'partials/vege'
