@@ -1,6 +1,3 @@
-button.close type="button" click="toggleBody"
-  a
-    i.remove.glyphicon.glyphicon-remove-sign
 .modal-header
   .modal-title
     h3.text-center.text-success Download Our App

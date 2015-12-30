@@ -2,7 +2,7 @@ import ModalDialog from 'ember-modal-dialog/components/modal-dialog';
 import modalLayout from '../templates/components/app-modal'
 
 export default ModalDialog.extend({
-	containerClassNames: "app-modal",
+	// containerClassNames: "app-modal",
 	targetAttachment: "none",
 	layout: modalLayout,
 	isShowingBody: true, // allow the modal to be created (offscreen)

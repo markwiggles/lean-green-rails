@@ -3,12 +3,14 @@
 		<div class="{{wrapperClassNamesString}} {{wrapper-class}}">
 			{{#modal-dialog-overlay classNameBindings='overlayClassNamesString translucentOverlay:translucent overlay-class' action='close' }}
 				{{#ember-modal-dialog-positioned-container classNameBindings="containerClassNamesString targetAttachmentClass container-class" targetAttachment=targetAttachment target=target }}
-					<button class="close" type="button" {{action "toggleBody"}}>
+					<button class="close" type="button" click="toggleBody">
 						<a>
 							<i class="remove glyphicon glyphicon-remove-sign"></i>
 						</a>
 					</button>
+
 					{{yield}}
+
 				{{/ember-modal-dialog-positioned-container}}
 			{{/modal-dialog-overlay}}
 		</div>

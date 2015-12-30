@@ -1,5 +1,6 @@
 main.cd-main-content.navigation-content.liquid-container
-	=app-modal translucentOverlay=false
+	=app-modal translucentOverlay=false containerClassNames="app-modal"
+		=partial 'partials/app-modalbody'
 
 	=partial 'partials/fixed-bg-1'
 	=partial 'partials/scrolling-bg-1'

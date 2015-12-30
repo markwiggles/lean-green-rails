@@ -1,15 +1,20 @@
-.app-modal {
-  right: -100%;
+.ember-modal-dialog {
   bottom: 0;
   z-index: 100000;
   transition: all 1000ms linear;
+}
+.shop-modal {
+  right: 2%;
+}
+.app-modal {
+  right: -100%;
   button.close {
     padding: 1em 0;
   }
   img {
     height: 11em;
     width: auto;
-    display:block;
+    display: block;
     margin: auto;
     padding: 0 2em;
   }
