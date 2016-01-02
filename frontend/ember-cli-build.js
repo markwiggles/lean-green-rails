@@ -10,7 +10,7 @@ module.exports = function(defaults) {
 			prepend: 'http://localhost:3000',
 			// prepend: 'http://lg.jolart.com',
 			// prefix: EmberApp.env() + '/assets',
-
+		
 		}
 	});
 

@@ -5,7 +5,8 @@
 				img.img-thumbnail.img-center src="images/evolution_large.png"
 				br
 				.videowrapper
+					=outlet
 
-					=ember-youtube ytid="cVfgLRjhkhc" show-controls=false
+					/ =ember-youtube ytid="cVfgLRjhkhc" show-controls=false
 
 				= partial 'partials/training'

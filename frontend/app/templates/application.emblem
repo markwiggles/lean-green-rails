@@ -1,2 +1,3 @@
-=partial 'partials/main-navbar'
+/ =partial 'partials/main-navbar'
+=main-navbar
 =liquid-outlet

@@ -1,11 +1,11 @@
 main.cd-main-content.navigation-content.liquid-container
-	=app-modal translucentOverlay=false containerClassNames="app-modal"
+	=app-modal translucentOverlay=false
 		=partial 'partials/app-modalbody'
 
 	=partial 'partials/fixed-bg-1'
 	=partial 'partials/scrolling-bg-1'
 
-	.cd-fixed-bg.cd-bg-2
+	.cd-fixed-bg.cd-bg-3
 		=partial 'partials/goals-form'
 
 	.cd-scrolling-bg.cd-color-1

@@ -2,11 +2,6 @@
   bottom: 0;
   z-index: 100000;
   transition: all 1000ms linear;
-}
-.shop-modal {
-  right: 2%;
-}
-.app-modal {
   right: -100%;
   button.close {
     padding: 1em 0;
@@ -29,12 +24,11 @@
     }
   }
 }
-.show-dialog {
-  right: 2%;
+.ember-carousel {
+  margin: auto;
+  width:86%;
 }
-.modal-backdrop {
-  background-color: transparent !important;
-}
+
 #call-to-action {
   padding-top: 10em;
   h2 {
@@ -142,9 +136,9 @@
   height: 0;
 }
 .videowrapper iframe {
-  background: url(images/evolved-training.png);
+  background: url(images/loading.gif);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center center;
   position: absolute;
   top: 0;
   left: 5%;

@@ -1,5 +1,5 @@
 import ModalDialog from 'ember-modal-dialog/components/modal-dialog';
-import modalLayout from '../templates/components/shop-modal'
+import modalLayout from '../templates/components/custom-modal'
 
 export default ModalDialog.extend({
 	containerClassNames: "shop-modal",
@@ -11,11 +11,11 @@ export default ModalDialog.extend({
 			this.toggleProperty('isShowingBody');
 		}
 	},
-	// didInsertElement: function() {
-	// 	setTimeout(function() { // after a time, animate the modal onto screen
-	// 		$('.app-modal').css({
-	// 			'right': '2%'
-	// 		});
-	// 	}, 2000)
-	// }
+	didInsertElement: function() {
+		setTimeout(function() { // after a time, animate the modal onto screen
+			$('.shop-modal').css({
+				'right': '2%'
+			});
+		}, 2000)
+	}
 });

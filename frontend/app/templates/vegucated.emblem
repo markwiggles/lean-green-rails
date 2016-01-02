@@ -1,4 +1,4 @@
 .navigation-content
 	=shop-modal
-		=partial "partials/shop-modalbody"
+		=partial 'partials/shop-modalbody'
 	=partial 'partials/vege'

@@ -1,4 +1,7 @@
 @import 'variables';
+.navbar-collapse {
+	width: 100%;
+}
 
 /* Extra Small devices (mobiles, 320px and up) */
 @media (min-width: 320px) and (max-width: 767px) {

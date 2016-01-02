@@ -99,11 +99,10 @@ MAIN
     border-radius: 10px;
     height: 300px;
   }
-  p {
+  p, li {
     text-align: left;
     font-size: 1.8em;
-    text-align: justify;
-    text-justify: inter-word;
+    // text-justify: inter-word;
     font-weight: 100px;
   }
   h2 {
