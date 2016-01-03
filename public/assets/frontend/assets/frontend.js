@@ -3316,16 +3316,16 @@ define("frontend/templates/components/modal-dialog", ["exports"], function (expo
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("img");
         dom.setAttribute(el1, "style", "margin:auto;");
-        dom.setAttribute(el1, "src", "http://lg.jolart.com/assets/frontend/images/iphone6.png");
+        dom.setAttribute(el1, "src", "http://localhost:3000/assets/frontend/images/iphone6.png");
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("div");
         dom.setAttribute(el1, "class", "modal-footer");
         var el2 = dom.createElement("img");
-        dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/app-store-icon.png");
+        dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/app-store-icon.png");
         dom.setAttribute(el2, "class", "opaque-hover");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("img");
-        dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/google-play-icon.png");
+        dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/google-play-icon.png");
         dom.setAttribute(el2, "class", "opaque-hover");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
@@ -3494,7 +3494,7 @@ define("frontend/templates/partials/-about", ["exports"], function (exports) {
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("img");
-        dom.setAttribute(el1, "src", "http://lg.jolart.com/assets/frontend/images/posing.jpg");
+        dom.setAttribute(el1, "src", "http://localhost:3000/assets/frontend/images/posing.jpg");
         dom.setAttribute(el1, "class", "img-thumbnail pull-left");
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("p");
@@ -3515,7 +3515,7 @@ define("frontend/templates/partials/-about", ["exports"], function (exports) {
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("img");
-        dom.setAttribute(el1, "src", "http://lg.jolart.com/assets/frontend/images/trophy-shot.jpg");
+        dom.setAttribute(el1, "src", "http://localhost:3000/assets/frontend/images/trophy-shot.jpg");
         dom.setAttribute(el1, "class", "img-thumbnail pull-right");
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("p");
@@ -3627,16 +3627,16 @@ define("frontend/templates/partials/-app-modalbody", ["exports"], function (expo
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("img");
         dom.setAttribute(el1, "style", "margin:auto;");
-        dom.setAttribute(el1, "src", "http://lg.jolart.com/assets/frontend/images/iphone6.png");
+        dom.setAttribute(el1, "src", "http://localhost:3000/assets/frontend/images/iphone6.png");
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("div");
         dom.setAttribute(el1, "class", "modal-footer");
         var el2 = dom.createElement("img");
-        dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/app-store-icon.png");
+        dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/app-store-icon.png");
         dom.setAttribute(el2, "class", "opaque-hover");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("img");
-        dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/google-play-icon.png");
+        dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/google-play-icon.png");
         dom.setAttribute(el2, "class", "opaque-hover");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
@@ -4026,7 +4026,7 @@ define("frontend/templates/partials/-goals", ["exports"], function (exports) {
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("img");
         dom.setAttribute(el2, "style", "display:block;margin:auto");
-        dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/jarrod-spot.jpg");
+        dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/jarrod-spot.jpg");
         dom.setAttribute(el2, "class", "img-thumbnail");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("ul");
@@ -4095,7 +4095,7 @@ define("frontend/templates/partials/-jarrod", ["exports"], function (exports) {
         var el2 = dom.createElement("div");
         dom.setAttribute(el2, "class", "cd-container");
         var el3 = dom.createElement("img");
-        dom.setAttribute(el3, "src", "http://lg.jolart.com/assets/frontend/images/family-pic.jpg");
+        dom.setAttribute(el3, "src", "http://localhost:3000/assets/frontend/images/family-pic.jpg");
         dom.setAttribute(el3, "class", "img-thumbnail pull-left");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("p");
@@ -4406,7 +4406,7 @@ define("frontend/templates/partials/-scrolling-bg-1", ["exports"], function (exp
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("img");
-        dom.setAttribute(el3, "src", "http://lg.jolart.com/assets/frontend/images/home-jump.png");
+        dom.setAttribute(el3, "src", "http://localhost:3000/assets/frontend/images/home-jump.png");
         dom.setAttribute(el3, "class", "img-thumbnail pull-right");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("p");
@@ -4540,7 +4540,7 @@ define("frontend/templates/partials/-shopping-carousel", ["exports"], function (
           dom.appendChild(el1, el2);
           var el2 = dom.createElement("img");
           dom.setAttribute(el2, "class", "img-responsive");
-          dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/home-slide1.jpg");
+          dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/home-slide1.jpg");
           dom.appendChild(el1, el2);
           var el2 = dom.createTextNode("\n	");
           dom.appendChild(el1, el2);
@@ -4552,7 +4552,7 @@ define("frontend/templates/partials/-shopping-carousel", ["exports"], function (
           dom.appendChild(el1, el2);
           var el2 = dom.createElement("img");
           dom.setAttribute(el2, "class", "img-responsive");
-          dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/home-slide2.jpg");
+          dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/home-slide2.jpg");
           dom.appendChild(el1, el2);
           var el2 = dom.createTextNode("\n	");
           dom.appendChild(el1, el2);
@@ -4564,7 +4564,7 @@ define("frontend/templates/partials/-shopping-carousel", ["exports"], function (
           dom.appendChild(el1, el2);
           var el2 = dom.createElement("img");
           dom.setAttribute(el2, "class", "img-responsive");
-          dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/home-slide3.jpg");
+          dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/home-slide3.jpg");
           dom.appendChild(el1, el2);
           var el2 = dom.createTextNode("\n	");
           dom.appendChild(el1, el2);
@@ -4576,7 +4576,7 @@ define("frontend/templates/partials/-shopping-carousel", ["exports"], function (
           dom.appendChild(el1, el2);
           var el2 = dom.createElement("img");
           dom.setAttribute(el2, "class", "img-responsive");
-          dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/home-slide4.jpg");
+          dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/home-slide4.jpg");
           dom.appendChild(el1, el2);
           var el2 = dom.createTextNode("\n	");
           dom.appendChild(el1, el2);
@@ -4645,7 +4645,7 @@ define("frontend/templates/partials/-team", ["exports"], function (exports) {
           },
           "end": {
             "line": 1,
-            "column": 998
+            "column": 1022
           }
         },
         "moduleName": "frontend/templates/partials/-team.hbs"
@@ -4659,11 +4659,11 @@ define("frontend/templates/partials/-team", ["exports"], function (exports) {
         dom.setAttribute(el1, "id", "team");
         var el2 = dom.createElement("h3");
         dom.setAttribute(el2, "class", "heading");
-        var el3 = dom.createTextNode("Join Us");
+        var el3 = dom.createTextNode("Join Us For A Workout Plus More");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("img");
-        dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/team.jpg");
+        dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/team.jpg");
         dom.setAttribute(el2, "class", "img-thumbnail pull-right");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("p");
@@ -4676,7 +4676,7 @@ define("frontend/templates/partials/-team", ["exports"], function (exports) {
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("img");
-        dom.setAttribute(el2, "src", "http://lg.jolart.com/assets/frontend/images/lake-workout.jpg");
+        dom.setAttribute(el2, "src", "http://localhost:3000/assets/frontend/images/lake-workout.jpg");
         dom.setAttribute(el2, "class", "img-thumbnail pull-left");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("p");
@@ -4786,7 +4786,7 @@ define("frontend/templates/partials/-training", ["exports"], function (exports) 
           },
           "end": {
             "line": 1,
-            "column": 1973
+            "column": 2025
           }
         },
         "moduleName": "frontend/templates/partials/-training.hbs"
@@ -4796,6 +4796,11 @@ define("frontend/templates/partials/-training", ["exports"], function (exports) 
       hasRendered: false,
       buildFragment: function buildFragment(dom) {
         var el0 = dom.createDocumentFragment();
+        var el1 = dom.createElement("h3");
+        dom.setAttribute(el1, "class", "heading");
+        var el2 = dom.createTextNode("Towards Better Methods");
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
         var el1 = dom.createElement("p");
         var el2 = dom.createTextNode("Over the past 13 years working in the Health & Fitness Industry, I have seen (and still see) way too many personal trainers and gym members who think they are doing the right thing lying on benches, pushing out leg presses, and sitting curling dumbbells to isolate just a few muscles every weights workout. Whether they want to become one or not, they’ve simply fallen into the trap of training like a competitive bodybuilder. But even bodybuilders, like me, need to remain open to evolving their training methods for better results.");
         dom.appendChild(el1, el2);
@@ -4833,7 +4838,7 @@ define("frontend/templates/partials/-training", ["exports"], function (exports) 
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("h3");
         dom.setAttribute(el1, "class", "heading");
-        var el2 = dom.createTextNode("Exercise Creativity");
+        var el2 = dom.createTextNode("Exercise Can Be Creative");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("p");
@@ -4909,7 +4914,7 @@ define("frontend/templates/partials/-vege", ["exports"], function (exports) {
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("img");
-        dom.setAttribute(el3, "src", "http://lg.jolart.com/assets/frontend/images/fork-road.jpg");
+        dom.setAttribute(el3, "src", "http://localhost:3000/assets/frontend/images/fork-road.jpg");
         dom.setAttribute(el3, "class", "img-thumbnail pull-left");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("p");
@@ -4955,7 +4960,7 @@ define("frontend/templates/partials/-vege", ["exports"], function (exports) {
         var el2 = dom.createElement("div");
         dom.setAttribute(el2, "class", "cd-container");
         var el3 = dom.createElement("img");
-        dom.setAttribute(el3, "src", "http://lg.jolart.com/assets/frontend/images/green-man.jpg");
+        dom.setAttribute(el3, "src", "http://localhost:3000/assets/frontend/images/green-man.jpg");
         dom.setAttribute(el3, "class", "img-thumbnail pull-right");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("p");
@@ -5092,7 +5097,7 @@ define("frontend/templates/training", ["exports"], function (exports) {
           },
           "end": {
             "line": 1,
-            "column": 327
+            "column": 301
           }
         },
         "moduleName": "frontend/templates/training.hbs"
@@ -5108,12 +5113,11 @@ define("frontend/templates/training", ["exports"], function (exports) {
         var el2 = dom.createElement("div");
         dom.setAttribute(el2, "class", "cd-scrolling-bg cd-color-1");
         var el3 = dom.createElement("div");
-        dom.setAttribute(el3, "style", "margin-top:-35px;");
         dom.setAttribute(el3, "class", "cd-container");
         var el4 = dom.createElement("div");
         dom.setAttribute(el4, "class", "row");
         var el5 = dom.createElement("img");
-        dom.setAttribute(el5, "src", "http://lg.jolart.com/assets/frontend/images/evolution_large.png");
+        dom.setAttribute(el5, "src", "http://localhost:3000/assets/frontend/images/evolution_large.png");
         dom.setAttribute(el5, "class", "img-thumbnail img-center");
         dom.appendChild(el4, el5);
         var el5 = dom.createElement("br");
@@ -5138,7 +5142,7 @@ define("frontend/templates/training", ["exports"], function (exports) {
         morphs[1] = dom.createMorphAt(element0, 3, 3);
         return morphs;
       },
-      statements: [["content", "outlet", ["loc", [null, [1, 256], [1, 266]]]], ["inline", "partial", ["partials/training"], [], ["loc", [null, [1, 272], [1, 303]]]]],
+      statements: [["content", "outlet", ["loc", [null, [1, 230], [1, 240]]]], ["inline", "partial", ["partials/training"], [], ["loc", [null, [1, 246], [1, 277]]]]],
       locals: [],
       templates: []
     };
@@ -5837,12 +5841,12 @@ define('frontend/transitions', ['exports'], function (exports) {
 /* jshint ignore:start */
 
 define('frontend/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+446329e4"},"contentSecurityPolicyHeader":"Content-Security-Policy-Report-Only","contentSecurityPolicy":{"default-src":"'none'","script-src":"'self' 'unsafe-eval'","font-src":"'self'","connect-src":"'self'","img-src":"'self'","style-src":"'self'","media-src":"'self'"},"exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+447d22b8"},"contentSecurityPolicyHeader":"Content-Security-Policy-Report-Only","contentSecurityPolicy":{"default-src":"'none'","script-src":"'self' 'unsafe-eval'","font-src":"'self'","connect-src":"'self'","img-src":"'self'","style-src":"'self'","media-src":"'self'"},"exportApplicationGlobal":true}};
 });
 
 if (!runningTests) {
-  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+446329e4"});
+  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+447d22b8"});
 }
 
 /* jshint ignore:end */
-//# sourceMappingURL=http://lg.jolart.com/assets/frontend/assets/frontend.map
+//# sourceMappingURL=http://localhost:3000/assets/frontend/assets/frontend.map
