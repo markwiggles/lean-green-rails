@@ -5,6 +5,9 @@ html {
   background-color: $lg-background-color;
   height: 100%;
   font-size: 16px;
+  background-image: url(images/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 // force show scrollbar
