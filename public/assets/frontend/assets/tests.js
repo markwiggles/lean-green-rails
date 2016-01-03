@@ -309,4 +309,4 @@ require('frontend/tests/test-helper');
 EmberENV.TESTS_FILE_LOADED = true;
 
 /* jshint ignore:end */
-//# sourceMappingURL=http://localhost:3000/assets/frontend/assets/tests.map
+//# sourceMappingURL=http://lg.jolart.com/assets/frontend/assets/tests.map

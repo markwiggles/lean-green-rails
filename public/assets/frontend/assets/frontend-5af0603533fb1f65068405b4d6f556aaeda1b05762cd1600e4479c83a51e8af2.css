@@ -28,7 +28,7 @@ html {
   background-color: #e6e6e6;
   height: 100%;
   font-size: 16px;
-  background-image: url(http://localhost:3000/assets/frontend/images/loading.gif);
+  background-image: url(http://lg.jolart.com/assets/frontend/images/loading.gif);
   background-repeat: no-repeat;
   background-position: center center; }
 
@@ -160,25 +160,25 @@ THE IMAGE BACKGROUNDS
 --------------------------------------------------------------------------------
 */
 .cd-fixed-bg.cd-bg-1 {
-  background-image: url(http://localhost:3000/assets/frontend/images/green-grass.jpg); }
+  background-image: url(http://lg.jolart.com/assets/frontend/images/green-grass.jpg); }
 
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url(http://localhost:3000/assets/frontend/images/bike-ride.jpg); }
+  background-image: url(http://lg.jolart.com/assets/frontend/images/bike-ride.jpg); }
 
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url(http://localhost:3000/assets/frontend/images/gym-bike.jpg); }
+  background-image: url(http://lg.jolart.com/assets/frontend/images/gym-bike.jpg); }
 
 .cd-fixed-bg.cd-bg-4 {
-  background-image: url(http://localhost:3000/assets/frontend/images/cd-background-4.jpg); }
+  background-image: url(http://lg.jolart.com/assets/frontend/images/cd-background-4.jpg); }
 
 .cd-fixed-bg.cd-bg-5 {
-  background-image: url(http://localhost:3000/assets/frontend/images/vegetables.jpg); }
+  background-image: url(http://lg.jolart.com/assets/frontend/images/vegetables.jpg); }
 
 .cd-fixed-bg.cd-bg-6 {
-  background-image: url(http://localhost:3000/assets/frontend/images/park-image.jpg); }
+  background-image: url(http://lg.jolart.com/assets/frontend/images/park-image.jpg); }
 
 .cd-fixed-bg.cd-bg-7 {
-  background-image: url(http://localhost:3000/assets/frontend/images/food-plate.jpg); }
+  background-image: url(http://lg.jolart.com/assets/frontend/images/food-plate.jpg); }
 
 .ember-modal-dialog {
   bottom: 0;
@@ -188,7 +188,7 @@ THE IMAGE BACKGROUNDS
   .ember-modal-dialog button.close {
     padding: 1em 0; }
   .ember-modal-dialog img {
-    height: 11em;
+    height: 15em;
     width: auto;
     display: block;
     margin: auto;
@@ -199,8 +199,8 @@ THE IMAGE BACKGROUNDS
     border: none; }
     .ember-modal-dialog .modal-header img,
     .ember-modal-dialog .modal-footer img {
-      display: block;
-      margin: 0.5em auto;
+      display: inline-block;
+      margin: 0.5em 0.2em;
       height: 2.5em; }
 
 .ember-carousel {
@@ -224,7 +224,7 @@ THE IMAGE BACKGROUNDS
     letter-spacing: 2px;
     margin-top: 0;
     padding-top: 2em;
-    line-height: 2em; }
+    line-height: 1.5em; }
   .cd-fixed-bg h1,
   .cd-fixed-bg h2,
   .cd-fixed-bg h3,
@@ -292,7 +292,7 @@ THE IMAGE BACKGROUNDS
   height: 0; }
 
 .videowrapper iframe {
-  background: url(http://localhost:3000/assets/frontend/images/loading.gif);
+  background: url(http://lg.jolart.com/assets/frontend/images/loading.gif);
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;
@@ -443,4 +443,4 @@ MEDIA QUERIES
   body {
     font-size: 16px !important; } }
 
-/*# sourceMappingURL=http://localhost:3000/assets/frontend/assets/frontend.css */
+/*# sourceMappingURL=http://lg.jolart.com/assets/frontend/assets/frontend.css */

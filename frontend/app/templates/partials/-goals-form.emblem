@@ -1,5 +1,5 @@
 form#goals-form
-  h1.form-heading What Would You Like To Improve?
+  h1.form-heading What Would You Like to Improve?
   table
     tr
       td.checkbox-q

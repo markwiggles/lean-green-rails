@@ -7,7 +7,7 @@
     padding: 1em 0;
   }
   img {
-    height: 11em;
+    height: 15em;
     width: auto;
     display: block;
     margin: auto;
@@ -18,8 +18,8 @@
     text-align: center;
     border: none;
     img {
-      display: block;
-      margin: 0.5em auto;
+      display: inline-block;
+      margin: 0.5em 0.2em;
       height: 2.5em;
     }
   }
@@ -48,7 +48,7 @@
     letter-spacing: 2px;
     margin-top: 0;
     padding-top: 2em;
-    line-height: 2em;
+    line-height: 1.5em;
   }
   h1,
   h2,

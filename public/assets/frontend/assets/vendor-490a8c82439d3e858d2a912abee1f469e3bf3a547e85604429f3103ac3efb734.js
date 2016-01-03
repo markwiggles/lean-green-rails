@@ -106226,4 +106226,4 @@ define('liquid-tether', ['liquid-tether/index', 'ember', 'exports'], function(__
 
 
 /* jshint ignore:end */
-//# sourceMappingURL=http://localhost:3000/assets/frontend/assets/vendor.map
+//# sourceMappingURL=http://lg.jolart.com/assets/frontend/assets/vendor.map
