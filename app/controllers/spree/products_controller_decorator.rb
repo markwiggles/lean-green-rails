@@ -5,6 +5,7 @@ Spree::ProductsController.class_eval do
   @taxonomies = Spree::Taxonomy.includes(root: :children)
    end
 
+# Method used to add the correct product information on the product page
  def find_product_type(product)
   name = product.name.downcase
   if name.include? 'busy'

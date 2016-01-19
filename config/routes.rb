@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'demo/index'
+
   get 'ember/index'
 
   # This line mounts Spree's routes at the root of your application.
@@ -8,6 +10,9 @@ Rails.application.routes.draw do
   #
   # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
   mount Spree::Core::Engine, :at => '/shop'
+
+  # ,  constraints: {protocol: /https/}
+  #  :constraints => { :protocol => "https", :subdomain => "secure" }
 
   mount_ember_app :frontend, to: '/', controller: 'application', action: 'index'
 

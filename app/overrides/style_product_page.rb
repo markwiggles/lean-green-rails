@@ -1,13 +1,3 @@
-# script =
-#
-# "$(document).ready(function() {
-# 	alert('loaded ' + $('.panel-body img').attribute('alt'));
-# 	$('#main-image img').on('click, touchstart', function() {
-# 		alert('touched');
-# 		this.addClass('enlarged');
-# 	})
-# }); "
-
 script = "<script>
   console.log('run script');
     $('#main-image img').on('load', function() {
