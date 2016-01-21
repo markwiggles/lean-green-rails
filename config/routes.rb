@@ -1,20 +1,18 @@
 Rails.application.routes.draw do
 
+    # This line mounts Spree's routes at the root of your application.
+    # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
+    # If you would like to change where this engine is mounted, simply change the :at option to something different.
+    #
+    # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
+  mount Spree::Core::Engine, :at => '/shop'
+
   comfy_route :cms_admin, :path => '/admin'
 
   # Make sure this routeset is defined last
   comfy_route :cms, :path => '/', :sitemap => false
 
-  get 'demo/index'
 
-  # get 'ember/index'
-
-  # This line mounts Spree's routes at the root of your application.
-  # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
-  # If you would like to change where this engine is mounted, simply change the :at option to something different.
-  #
-  # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
-  mount Spree::Core::Engine, :at => '/shop'
 
   # ,  constraints: {protocol: /https/}
   #  :constraints => { :protocol => "https", :subdomain => "secure" }

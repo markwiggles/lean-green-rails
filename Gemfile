@@ -9,6 +9,8 @@ gem 'pg'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+gem 'slick_rails'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
@@ -21,7 +23,7 @@ gem 'therubyracer', platforms: :ruby
 gem 'font-awesome-rails'
 
 gem 'comfortable_mexican_sofa', '~> 1.12.0'
-gem 'will_paginate', '~> 3.0.6'
+
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'

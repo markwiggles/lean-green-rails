@@ -25,9 +25,12 @@
     }
   }
 }
-.ember-carousel {
+.lg-carousel {
   margin: auto;
   width:86%;
+  .slick-slide {
+    width: 400px;
+  }
 }
 
 #call-to-action {
@@ -51,17 +54,31 @@
     padding-top: 2em;
     line-height: 1.5em;
   }
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  h4 {
+    font-size: 2em;
+  }
   h1,
   h2,
   h3,
+  h4,
   p,
   li {
     color: $white-text;
   }
-  h2 {
-    margin-top: 2em;
-    line-height: 2em;
+  p, li {
+    font-size: 1.8em;
   }
+
+  // h2 {
+  //   margin-top: 2em;
+  //   line-height: 2em;
+  // }
   form,
   table,
   table tr,
