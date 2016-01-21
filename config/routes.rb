@@ -1,8 +1,13 @@
 Rails.application.routes.draw do
 
+  comfy_route :cms_admin, :path => '/admin'
+
+  # Make sure this routeset is defined last
+  comfy_route :cms, :path => '/', :sitemap => false
+
   get 'demo/index'
 
-  get 'ember/index'
+  # get 'ember/index'
 
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
@@ -14,13 +19,13 @@ Rails.application.routes.draw do
   # ,  constraints: {protocol: /https/}
   #  :constraints => { :protocol => "https", :subdomain => "secure" }
 
-  mount_ember_app :frontend, to: '/', controller: 'application', action: 'index'
+  # mount_ember_app :frontend, to: '/', controller: 'application', action: 'index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  # root 'demo#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

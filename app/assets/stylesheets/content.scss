@@ -1,0 +1,148 @@
+@import "variables";
+.ember-modal-dialog {
+  bottom: 0;
+  z-index: 100000;
+  transition: all 1000ms linear;
+  right: -100%;
+  button.close {
+    padding: 1em 0;
+  }
+  img {
+    height: 15em;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 0 2em;
+  }
+  .modal-header,
+  .modal-footer {
+    text-align: center;
+    border: none;
+    img {
+      display: inline-block;
+      margin: 0.5em 0.2em;
+      height: 2.5em;
+    }
+  }
+}
+.ember-carousel {
+  margin: auto;
+  width:86%;
+}
+
+#call-to-action {
+  padding-top: 10em;
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
+  address {
+    font-size: 1.7em;
+    color: $white-text;
+  }
+}
+.cd-fixed-bg {
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  h1 {
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    margin-top: 0;
+    padding-top: 2em;
+    line-height: 1.5em;
+  }
+  h1,
+  h2,
+  h3,
+  p,
+  li {
+    color: $white-text;
+  }
+  h2 {
+    margin-top: 2em;
+    line-height: 2em;
+  }
+  form,
+  table,
+  table tr,
+  label {
+    background-color: transparent;
+    border: none;
+    color: $white-text;
+  }
+}
+#goals {
+  li {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+}
+.jumbo {
+  border: 1px solid lighten(grey,30%);
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 10px;
+  margin: auto;
+}
+.cd-scrolling-bg {
+  h1,
+  h2,
+  h3,
+  p,
+  li {
+
+    // color: $white-text;
+  }
+  form,
+  table,
+  table tr,
+  label {
+    background-color: transparent;
+    border: none;
+  }
+  img {
+    height: 20em;
+    width: auto;
+  }
+  img.pull-left {
+    margin: 1em 2em 0 0;
+  }
+  img.pull-right {
+    margin: 1em 0 0 2em;
+  }
+  h3.heading {
+    margin-bottom: 0.3em;
+    margin-bottom: 0.3em;
+    // font-size: 2.2em;
+    font-weight: bold;
+
+    // border-bottom: solid 2px #fff;
+    display: block;
+    padding-bottom: 1px;
+  }
+}
+#training {
+  .img-center {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+  }
+}
+.videowrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videowrapper iframe {
+  background: url(loading.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}

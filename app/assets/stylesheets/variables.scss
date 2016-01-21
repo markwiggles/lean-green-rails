@@ -1,0 +1,17 @@
+
+//CUSTOM VARIABLES
+$lg-green: #75B940;
+$lg-green-light: lighten($lg-green,10%);
+$lg-green-dark: darken(#75B940, 10%);
+$lg-green-darker: darken(#228B22,0%);
+$lg-green-darkest: darken(#228B22,30%);
+$lg-background-color: lighten(grey,40%);
+// darken($lg-green, 60%);
+$bg-light: darken(#FFF, 5%);
+$text-color: darken(grey,30%);
+$white-text: darken(#fff,10%);
+$bg-light: darken(#FFF, 5%);
+$bg-green: $lg-green;
+$nav-link-clr: lighten(#8e7d7f,10%);
+$checkbox-tick: $lg-green-dark;
+$header-color: black;
