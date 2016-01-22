@@ -3,18 +3,18 @@
 		%nav.col-md-12{style:"height:50px;z-index:30000"}
 			=render 'partials/menu_button'
 			#shop-navbar.navbar.collapse.navbar-collapse.col-xs-10
-				%ul.nav.navbar-nav.col-md-7.col-sm-8.col-xs-12{"data-hook" => ""}
+				%ul.nav.navbar-nav.col-md-12.col-sm-12.col-xs-12{"data-hook" => ""}
 					%li
 						=link_to 'Home', '/'
 					- Comfy::Cms::Site.first.pages.root.children.published.each do |page|
 						%li= link_to page.label, page.full_path
 
-				%ul.nav.navbar-nav.navbar-right.col-md-5.col-sm-8.col-xs-12{"data-hook" => ""}
+				-# %ul.nav.navbar-nav.navbar-right.col-md-5.col-sm-8.col-xs-12{"data-hook" => ""}
 
 					%li#home-link{"data-hook" => ""}
 						=link_to Spree.t('L&G Products'), spree.root_path
 
-					%li#link-to-cart{"data-hook" => ""}
+					%li#link-to-cart{"data-hook" => ""}.pull-right
 						%noscript
 							= link_to Spree.t(:cart), '/cart'
 							\&#160;

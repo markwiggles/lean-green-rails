@@ -7,19 +7,19 @@
 				<span class="icon-bar"></span>
 			</button>
 			<div class="navbar collapse navbar-collapse col-xs-10" id="shop-navbar">
-				<ul class="nav navbar-nav col-md-7 col-sm-8 col-xs-12" data-hook="">
+				<ul class="nav navbar-nav col-md-12 col-sm-12 col-xs-12" data-hook="">
 					<li><%= link_to 'Home', '/' %></li>
 					<% Comfy::Cms::Site.first.pages.root.children.published.each do |page| %>
 					<li><%= link_to page.label, page.full_path %></li>
 					<% end %>
-				</ul>
-				<ul class="nav navbar-nav navbar-right col-md-5 col-sm-8 col-xs-12" data-hook="">
+				<!-- </ul>
+				<ul class="nav navbar-nav navbar-right col-md-5 col-sm-8 col-xs-12" data-hook=""> -->
 					<li data-hook="" id="home-link">
 						<a href="/shop/">
 							<span class="translation_missing" title="translation missing: en.spree.L&amp;G Products">L&amp;G Products</span>
 						</a>
 					</li>
-					<li data-hook="" id="link-to-cart">
+					<li data-hook="" id="link-to-cart" class="pull-right">
 						<a class="cart-info empty" href="/shop/cart">
 							<span class="glyphicon glyphicon-shopping-cart"></span>
 							Cart: (Empty)</a>
