@@ -194,6 +194,14 @@ body {
 [data-hook='product_show'] {
 	display: table;
 }
+
+.product-info {
+		color: $lg-green-darker;
+		font-size: 1.2em;
+}
+
+
+
 .accordion {
 	height: auto;
 	.accordion-heading {

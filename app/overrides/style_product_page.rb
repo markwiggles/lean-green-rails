@@ -15,8 +15,8 @@ script = "<script>
 
 </script>"
 
-
-
+product_info1 = '<%= cms_block_render(:information, Comfy::Cms::Page.find_by_full_path("/#{find_product_type(@product)}")) %>'
+product_info2 = '<%= cms_block_render(:faq, Comfy::Cms::Page.find_by_full_path("/#{find_product_type(@product)}")) %>'
 
 Deface::Override.new(virtual_path: 'spree/products/show',
                      name: 'allow html_safe',
@@ -26,7 +26,7 @@ Deface::Override.new(virtual_path: 'spree/products/show',
 Deface::Override.new(virtual_path: 'spree/products/show',
                      name: 'add product info',
                      insert_after: "erb[silent]:contains('end')",
-                     text: '<%= render "partials/#{find_product_type(@product)}"%>')
+                     text: "<div class='product-info'>#{product_info1} #{product_info2}</div>")
 
 
 Deface::Override.new(virtual_path: 'spree/products/_image',
