@@ -12,3 +12,22 @@
 		=render'partials/header'
 		%main.cd-main-content.navigation-content
 			=yield
+
+
+		#myModal.modal.fade{:role => "dialog",
+		"data-delay" => cms_block_content(:delay, Comfy::Cms::Page.find_by_full_path("#{get_modal_path}")),
+		"data-backdrop" => cms_block_content(:backdrop, Comfy::Cms::Page.find_by_full_path("#{get_modal_path}")),
+		"data-size" => cms_block_content(:size, Comfy::Cms::Page.find_by_full_path("#{get_modal_path}")),
+		"data-position" => cms_block_content(:position, Comfy::Cms::Page.find_by_full_path("#{get_modal_path}"))}
+			.modal-dialog
+				.modal-content
+					.modal-header
+						%button.close{"data-dismiss" => "modal", :type => "button"}
+							=fa_icon "close"
+						%h2.modal-title
+							=cms_block_content(:header, Comfy::Cms::Page.find_by_full_path("#{get_modal_path}"))
+					.modal-body
+						=cms_block_render(:body, Comfy::Cms::Page.find_by_full_path("#{get_modal_path}"))
+					.modal-footer
+						%button.btn.btn-default{"data-dismiss" => "modal"}
+							Close

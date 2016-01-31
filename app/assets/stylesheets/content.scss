@@ -1,30 +1,5 @@
 @import "variables";
-.ember-modal-dialog {
-  bottom: 0;
-  z-index: 100000;
-  transition: all 1000ms linear;
-  right: -100%;
-  button.close {
-    padding: 1em 0;
-  }
-  img {
-    height: 15em;
-    width: auto;
-    display: block;
-    margin: auto;
-    padding: 0 2em;
-  }
-  .modal-header,
-  .modal-footer {
-    text-align: center;
-    border: none;
-    img {
-      display: inline-block;
-      margin: 0.5em 0.2em;
-      height: 2.5em;
-    }
-  }
-}
+
 .lg-carousel {
   margin: auto;
   width:86%;
